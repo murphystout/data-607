@@ -4,7 +4,7 @@ author: "Michael Hayes"
 date: "January 31, 2019"
 output: html_document
 ---
-
+This file is also available at: https://github.com/murphystout/data-607/blob/master/week-1-assignment-data-607.Rmd
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
