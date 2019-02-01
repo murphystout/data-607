@@ -1,0 +1,67 @@
+---
+title: "Data 607 Week 1 Assignment"
+author: "Michael Hayes"
+date: "January 31, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Mushroom Dataset
+
+###Step 1 - Read CSV into a Data Frame:
+
+```{r}
+mushroom <- read.csv("https://archive.ics.uci.edu/ml/machine-learning-databases/mushroom/agaricus-lepiota.data")
+
+```
+
+##Step 2 - Assign Column Names.
+
+These can be found at the data dictionary at: https://archive.ics.uci.edu/ml/machine-learning-databases/mushroom/agaricus-lepiota.names
+
+```{r}
+mushroom_names <- c("edible","cap_shape","cap_surface","cap_color","bruises?","odor","gill_attachment","gill_spacing","gill_size","gill_color","stalk_shape","stalk_root","stalk_surface_above_ring","stalk_surface_below_ring","stalk_color_above_ring","stalk_color_below_ring","veil_type","veil_color","ring_number","ring_type","spore_print_color","population","habitat")
+
+colnames(mushroom) <- mushroom_names
+```
+
+
+##Step 3 - Pull A Subset of Data for more manageable analysis
+
+```{r}
+mushroom_subset <- subset(mushroom, select = c(edible, cap_shape, cap_surface, cap_color, ring_type))
+
+head(mushroom_subset)
+
+```
+
+##Step 4 - Replace Abbreviations
+
+```{r}
+
+levels(mushroom_subset$edible)
+
+levels(mushroom_subset$edible) <- c("Edible", "Poisonous")
+
+levels(mushroom_subset$cap_shape)
+
+levels(mushroom_subset$cap_shape) <- c("Bell", "Conical", "Flat", "Knobbed", "Sunken", "Convex")
+
+levels(mushroom_subset$cap_surface)
+
+levels(mushroom_subset$cap_surface) <- c("Fibrous", "Grooves", "Smooth", "Scaly")
+
+levels(mushroom_subset$cap_color) 
+
+levels(mushroom_subset$cap_color) <- c("Buff", "Cinnamon", "Red","Gray","Brown", "Pink","Green","Purple","White","Yellow")
+
+levels(mushroom_subset$ring_type)
+
+levels(mushroom_subset$ring_type) <- c("Evanescent","Flaring","Large","None","Pendant")
+
+head(mushroom_subset)
+```
+
