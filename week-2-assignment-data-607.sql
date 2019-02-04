@@ -142,6 +142,6 @@ VALUES ("Sandy Solanger","2", "Im done with superhero movies.", 6);
 
 
 
-SELECT movies.movie_id, movie_title, reviews.review_id, reviews.reviewer_name, reviews.rating, reviews.review_text
+SELECT movies.movie_id, movies.movie_title, movies.imdb_url, reviews.review_id, reviews.reviewer_name, reviews.rating, reviews.review_text
 FROM movies LEFT JOIN reviews
 ON movies.movie_id = reviews.movie_id;
