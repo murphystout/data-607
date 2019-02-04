@@ -15,13 +15,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 
-#Utilize the RMySQL package to handle DB Connecions and Queries.
+#Utilize the RMySQL package to handle DB Connections and Queries.
 
 library(RMySQL)
 
 #Establish a dbConnect database connection (fill in user/password for your particular user.)
 
-mydb = dbConnect(MySQL(), user='root', password='Simpsons1!', dbname='movies', host='localhost')
+mydb = dbConnect(MySQL(), user='root', password='********', dbname='movies', host='localhost')
 
 #Query the DB for the data and drop it into a dataframe variable.
 #This particular query is joining two tables into one query result.
