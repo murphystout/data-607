@@ -1,0 +1,33 @@
+---
+title: "Week 2 Assignment Data 607"
+author: "Michael Hayes"
+date: "February 4, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Week 2 Assignment
+
+
+
+```{r}
+
+#Utilize the RMySQL package to handle DB Connecions and Queries.
+
+library(RMySQL)
+
+#Establish a dbConnect database connection (fill in user/password for your particular user.)
+
+mydb = dbConnect(MySQL(), user='root', password='*******', dbname='movies', host='localhost')
+
+#Query the DB for the data and drop it into a dataframe variable.
+#This particular query is joining two tables into one query result.
+
+movie_ratings <- dbGetQuery(mydb,"SELECT movies.movie_id, movie_title, reviews.review_id, reviews.reviewer_name, reviews.rating, reviews.review_text FROM movies LEFT JOIN reviews ON movies.movie_id = reviews.movie_id;")
+
+movie_ratings
+```
+
