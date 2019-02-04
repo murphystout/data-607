@@ -1,3 +1,8 @@
+DROP SCHEMA IF EXISTS movies;
+CREATE SCHEMA movies;
+USE movies;
+
+
 DROP TABLE IF EXISTS movies;
 DROP TABLE IF EXISTS reviews;
 
