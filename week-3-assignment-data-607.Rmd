@@ -1,0 +1,175 @@
+---
+title: "Week 3 Assignment - Data 607"
+author: "Michael Hayes"
+date: "February 14, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r}
+library(stringr)
+
+raw.data <-"555-1239Moe Szyslak(636) 555-0113Burns, C. Montgomery555-6542Rev. Timothy Lovejoy555 8904Ned Flanders636-555-3226Simpson, Homer5553642Dr. Julius Hibbert"
+
+name <-unlist(str_extract_all(raw.data, "[[:alpha:]., ]{2,}"))
+name
+
+phone <- unlist(str_extract_all(raw.data, "\\(?(\\d{3})?\\)?(-| )?\\d{3}(-| )?\\d{4}"))
+phone
+
+```
+
+
+Copy the introductory example. 
+
+```{r}
+
+name
+```
+
+a. The vector name stores the extracted names. Use the tools of this chapter to rearrange the vector so that all elements conform to the standard first_name last_name. 
+
+```{r}
+#Determine which names *don't* follow first name + last name (i.e. user lastname,firstname)
+
+last_first <- name[str_detect(name,"[[:alpha:]],")]
+
+last_first
+
+#Split members on the comma, swap via backreferencing
+
+first_last <- str_replace(last_first,"([^,]+),\\s([^,]+)","\\2 \\1")
+
+first_last
+
+#Place back into original vector.
+
+name[str_detect(name,"[[:alpha:]],")] <- first_last
+```
+
+b. Construct a logical vector indicating whether a character has a title (i.e., Rev. and Dr.). 
+
+```{r}
+title <- str_detect(name, "[[:alpha:]]{2,3}[.]")
+
+title
+
+name[title]
+
+
+
+```
+
+c. Construct a logical vector indicating whether a character has a second name.
+
+```{r}
+#Assuming second name means middle name OR last name
+
+#Remove titles, then check for a space.  This would indicate there are 2 words, hence 2 names.
+
+second_name <- str_detect(str_replace(name,"[[:alpha:].]{2,3}\\. ",""),"\\s")
+
+second_name 
+
+name[second_name]
+
+#If they are referring to a middle name, do the same, just checking for 2 spaces, hence 3 words:
+
+middle_initial <- str_detect(str_replace(name,"[[:alpha:].]{2,3}\\. ",""),"\\s.*\\s")
+
+middle_initial
+
+name[middle_initial]
+
+
+```
+
+
+Describe the types of strings that conform to the following regular expressions and construct an example that is matched by the regular expression. 
+
+NOTE: I've included examples that return false in order to better exemplify the limits of the pattern.
+
+[0-9]+\\$ 
+
+1 or more digits followed by a dollar sign.
+
+```{r}
+answer_4a <- c("$1000", "1000", "100$", "1000$")
+
+str_detect(answer_4a, "[0-9]+\\$")
+
+
+```
+
+
+\\b[a-z]{1,4}\\b 
+
+Word break follow by 1 to 4 lowercase letters followed by another word break.
+
+```{r}
+answer_4b <- c("This is a full sentence with several one to four letter words")
+
+str_extract_all(answer_4b,"\\b[a-z]{1,4}\\b")
+
+
+```
+
+
+
+.*?\\.txt$ 
+
+Zero or more of any chacter (optionally), ending with a literal period and 'txt' 
+
+
+```{r}
+answer_4c <- c("filename.txt", ".txt", "This sentence doesn't end with a .txt extension")
+
+str_detect(answer_4c, ".*?\\.txt$")
+
+```
+
+\\d{2}/\\d{2}/\\d{4} 
+
+2 digits followed by a foreward slash followed by 2 digits followed by a forward slash followed by 4 digits 
+
+A common date notation.
+
+```{r}
+
+answer_4d <- c("04/04/2019", "12/23/2011", "99/99/9999", "1/2/3432")
+
+str_detect(answer_4d, "\\d{2}/\\d{2}/\\d{4}")
+
+```
+
+
+<(.+?)>.+?</\\1>
+
+Less than sign folowed by an optional 1 or more chacters followed by a greater than sign, followed by an optional 1 or more chacters, followed by a less than sign, a foreward slash, and the first matching group, and a final greater than sign.
+
+I.e.: This will extract HTML tags and their containments.
+
+```{r}
+
+
+str_extract_all("This is HTML markup code, with <strong>bolded text</strong> as well as <em>italics</em>", "<(.+?)>.+?</\\1>")
+
+
+```
+
+
+9.The following code hides a secret message. Crack it with R and regular expressions. Hint: Some of the characters are more revealing than others! The code snippet is also available in the materials at www.r-datacollection.com.
+
+```{r}
+
+secretcode <- "clcopCow1zmstc0d87wnkig7OvdicpNuggvhryn92Gjuwczi8hqrfpRxs5Aj5dwpn0TanwoUwisdij7Lj8kpf03AT5Idr3coc0bt7yczjatOaootj55t3Nj3ne6c4Sfek.r1w1YwwojigOd6vrfUrbz2.2bkAnbhzgv4R9i05zEcrop.wAgnb.SqoU65fPa1otfb7wEm24k6t3sR9zqe5fy89n6Nd5t9kc4fE905gmc4Rgxo5nhDk!gr"
+
+str_replace_all(secretcode,"[[:lower:]]|[[:digit:]]","")
+
+```
+
