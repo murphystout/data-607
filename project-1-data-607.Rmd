@@ -1,0 +1,142 @@
+---
+title: "Project 1 CUNY 607"
+author: "Michael Hayes"
+date: "February 23, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r}
+library(dplyr)
+library(stringr)
+
+#Load the data, delimited by "|", etc.
+
+player_data <- read.delim('https://raw.githubusercontent.com/murphystout/data-607/master/tournamentinfo.txt',skip = 1, sep = "|", header = TRUE)
+
+#Delete the annoying dash lines.
+
+line_to_delete <- player_data[2,1]
+player_data <- filter(player_data, Pair != line_to_delete)
+
+
+#Take even number rows (i.e. player name and associated data), into own data frame
+
+even_num_rows <- player_data[seq(2,length(player_data[,1]),2),]
+
+
+#Same with odd, and give it appropriate column names
+
+odd_num_rows <- player_data[seq(3,length(player_data[,1]),2),]
+
+names(odd_num_rows) <- c('State', 'USCF_ID_Rating_Pre_Post','Total','Round1_Outcome','Round2_Outcome','Round3_Outcome','Round4_Outcome','Round5_Outcome','Round6_Outcome','Round7_Outcome')
+
+#Combine the two data frame for ease of analysis.
+
+player_data_wide <- cbind(even_num_rows, odd_num_rows)
+
+#Rename row names to be sequential, as they kept the even numbered names from steps above
+
+row.names(player_data_wide) <- 1:length(player_data_wide[,1])
+
+#Extract Pre Rating
+rating_split <- player_data_wide$USCF_ID_Rating_Pre_Post
+pre_rating <- substring(rating_split,15,19)
+pre_rating <- str_trim(pre_rating)
+pre_rating <- as.numeric(pre_rating)
+
+
+
+#For the heck of it, Extract End Rating as well
+
+rating_split <- player_data_wide$USCF_ID_Rating_Pre_Post
+end_rating <- str_extract_all(rating_split,">([0-9 ]*)")
+end_rating <- str_trim(substring(end_rating,2))
+
+#Add to new columns of dataframe
+
+player_data_wide <- cbind(player_data_wide,pre_rating)
+player_data_wide <- cbind(player_data_wide,end_rating)
+
+#Extract Opponents IDs
+
+round_1_opp_id <- str_extract(player_data_wide$Round,"[0-9]{1,2}")
+
+round_2_opp_id <- str_extract(player_data_wide$Round.1,"[0-9]{1,2}")
+
+round_3_opp_id <- str_extract(player_data_wide$Round.2,"[0-9]{1,2}")
+
+round_4_opp_id <- str_extract(player_data_wide$Round.3,"[0-9]{1,2}")
+
+round_5_opp_id <- str_extract(player_data_wide$Round.4,"[0-9]{1,2}")
+
+round_6_opp_id <- str_extract(player_data_wide$Round.5,"[0-9]{1,2}")
+
+round_7_opp_id <- str_extract(player_data_wide$Round.6,"[0-9]{1,2}")
+
+#Add all these to the dataframe
+
+player_data_wide <- cbind(player_data_wide,round_1_opp_id,round_2_opp_id,round_3_opp_id,round_4_opp_id,round_5_opp_id,round_6_opp_id, round_7_opp_id)
+
+#Create a linking table with opponent IDs and Pre Ratings.  Will use to look up ratings in next steps.
+player_data_wide$Pair <- as.numeric(as.character(player_data_wide$Pair))
+linking_table <- player_data_wide[c("Pair","pre_rating")]
+
+
+#Series of joins to pull in data.  Using the merge function.  We also want to create a redundant data frame to avoid messing up the previous one.
+
+player_data_wide_2 <- player_data_wide
+
+
+
+colnames(linking_table)[1]<-"round_1_opp_id"
+colnames(linking_table)[2]<-"round_1_pre_rating"
+player_data_wide_2<-merge(player_data_wide_2,linking_table,by="round_1_opp_id", all.x = TRUE)
+
+colnames(linking_table)[1]<-"round_2_opp_id"
+colnames(linking_table)[2]<-"round_2_pre_rating"
+player_data_wide_2<-merge(player_data_wide_2,linking_table,by="round_2_opp_id", all.x = TRUE)
+
+colnames(linking_table)[1]<-"round_3_opp_id"
+colnames(linking_table)[2]<-"round_3_pre_rating"
+player_data_wide_2<-merge(player_data_wide_2,linking_table,by="round_3_opp_id", all.x = TRUE)
+
+colnames(linking_table)[1]<-"round_4_opp_id"
+colnames(linking_table)[2]<-"round_4_pre_rating"
+player_data_wide_2<-merge(player_data_wide_2,linking_table,by="round_4_opp_id", all.x = TRUE)
+
+colnames(linking_table)[1]<-"round_5_opp_id"
+colnames(linking_table)[2]<-"round_5_pre_rating"
+player_data_wide_2<-merge(player_data_wide_2,linking_table,by="round_5_opp_id", all.x = TRUE)
+
+colnames(linking_table)[1]<-"round_6_opp_id"
+colnames(linking_table)[2]<-"round_6_pre_rating"
+player_data_wide_2<-merge(player_data_wide_2,linking_table,by="round_6_opp_id", all.x = TRUE)
+
+colnames(linking_table)[1]<-"round_7_opp_id"
+colnames(linking_table)[2]<-"round_7_pre_rating"
+player_data_wide_2<-merge(player_data_wide_2,linking_table,by="round_7_opp_id", all.x = TRUE)
+
+
+# Calculate Means
+
+player_data_wide_2$avg_opp_rating <- round(rowMeans(player_data_wide_2[c("round_1_pre_rating","round_2_pre_rating","round_3_pre_rating","round_4_pre_rating","round_5_pre_rating","round_6_pre_rating","round_7_pre_rating")],na.rm = TRUE))
+
+
+#Put together final solution table
+
+#Sort first
+
+player_data_wide_2 <- player_data_wide_2[order(player_data_wide_2$Pair),]
+
+solution <- player_data_wide_2[,c("Player.Name","State", "Total", "pre_rating","avg_opp_rating")]
+
+colnames(solution) <- c("Player.Name", "State", "Total.Points", "Pre.Rating", "Opponent.Avg.Pre.Rating")
+
+solution
+```
