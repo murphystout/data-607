@@ -1,0 +1,101 @@
+---
+title: "Week 5 Assignment"
+author: "Michael Hayes"
+date: "February 28, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyr)
+library(dplyr)
+```
+
+### Step 1 - Load the Untidy Data
+
+```{r}
+week_5 <- read.csv("https://raw.githubusercontent.com/murphystout/data-607/master/week_5.csv")
+
+week_5
+```
+
+### Step 2 - Add some Column Names
+
+```{r}
+colnames(week_5)[1:2] <- c("provider","status")
+```
+
+
+### Step 3 - Fill in Provider Names Where Missing
+
+```{r}
+week_5[2,1] <- 'ALASKA'
+week_5[5,1] <- 'AM WEST'
+
+```
+
+### Step 4 - Remove Blank 3rd Row
+
+```{r}
+week_5 <- week_5[-3,]
+
+week_5
+```
+
+
+### Step 5 - Gather Location/Flight Count
+
+Ideally "Location" should be a variable/column name, with individual "Values" relating to the specific location (i.e. 'Los.Angeles').  We can use the "gather" function to turn the various columns into location/flight_count value pairs:
+
+```{r}
+week_5 <- gather(week_5,"location", "flight_count", Los.Angeles:Seattle)
+
+week_5
+```
+
+
+### Step 6 - Spread/Cast Status
+
+Ideally ontime flights and delayed flights should have their own variables/column names.  This requires casting/spreading:
+
+
+```{r}
+week_5 <- spread(week_5,status,flight_count)
+
+week_5
+```
+
+
+### Step 7 - Add a total column and percentage columns
+
+Adding a column that contains the total of delayed and on time flights.  Also adding a column for % of delayed. This is good for analysis purposes.
+
+```{r}
+
+week_5$total_flights <- week_5$delayed + week_5$'on time'
+week_5$delayed_pct <- week_5$delayed / week_5$total_flights
+
+week_5
+```
+
+### Step 8 - Comparing Across Providers
+
+Lets look at overall delay percentages per providers
+
+```{r}
+AK_delayed_pct <- sum(subset(week_5,provider == 'ALASKA')$delayed) / sum(subset(week_5,provider == 'ALASKA')$total_flights) 
+
+
+
+AW_delayed_pct <- sum(subset(week_5,provider == 'AM WEST')$delayed) / sum(subset(week_5,provider == 'AM WEST')$total_flights) 
+
+df <- data.frame(c("Alaska", "AM West"),c(AK_delayed_pct, AW_delayed_pct))
+colnames(df) <- c("Provider", "Delay Percentage")
+df
+
+
+```
+
+### Conclusion
+
+Looks like AM West has a lower delay percentage than Alaska.
