@@ -1,0 +1,247 @@
+---
+title: "Project 2 - Data 607 - Michael Hayes"
+author: "Michael Hayes"
+date: "March 8, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyr)
+library(dplyr)
+```
+
+## Color and Heat Absorption Data
+
+For this "tidying" we will utilize Christopher Ayre's example dataset of Heating and Cooling Absorption.  
+
+Discussion board can be found here: https://bbhosted.cuny.edu/webapps/discussionboard/do/message?action=list_messages&course_id=_1705328_1&nav=discussion_board&conf_id=_1845527_1&forum_id=_1908779_1&message_id=_31283025_1
+
+### Step 1 - Load Dataset
+
+Christopher provided the data in a .csv file, which I've uploaded to github:
+
+```{r}
+heating <- read.csv("https://raw.githubusercontent.com/murphystout/data-607/master/heating_cooling.csv")
+
+head(heating)
+```
+
+Christopher adeptly pointed out several issues with the data set that make it "untidy".  These are:
+
+1. The variable for "time elapsed" does not have its own column.  In this case we see a column for each ten minute interval.  These should be collapsed into one column.
+
+2. Each color should have its own column.  We will treat one "observation" as the temperature across all the colors, and so the color is merely a variable for a single observation, hence they should all be placed on a single row.
+
+3. Multiple observational units are observed in the same table.  In particular the "heating" and "cooling" data are in one table.
+
+After we have tidied it up, we will do some exploratory analysis and visualizations on the data.
+
+### Step 2 - Gather Times
+
+For this step we will gather multiple timestamp columns into a single column.
+
+As a intermediate step, let's first rename the columns to that they take on a numerical value, this will help with plotting the value later on.
+
+```{r}
+colnames(heating) <- c("color",0,10,20,30,40,50,60,"phase")
+
+heating <- gather(heating, time, temperature, "0":"60")
+
+head(heating, 20)
+
+```
+
+Finally, let's make sure the time is stores as numeric values:
+
+```{r}
+heating$time <- as.numeric(heating$time)
+
+```
+
+
+### Step 3 - Spreading Colors to Columns
+
+Now that's we've gathered up the temperature columns, let's spread out the color columns to include one temp reading for each color + timestamp combination.
+
+
+```{r}
+heating <- spread(heating, color, temperature)
+
+heating
+
+```
+
+### Step 4 - Split observational units to separate tables.
+
+Thankfully this is as simple as subsetting the data based on the "phase" column.  I saved this for the last step to save us from having to perform the tidying operations twice.
+
+```{r}
+cooling <- subset(heating, phase == "cooling")
+heating <- subset(heating, phase == "heating")
+
+head(cooling)
+head(heating)
+
+```
+
+### Step 5 - Exploraty Data Analysis
+
+Let's plot these data in a line graph to get a visual representation of how the colors responded to heating and cooling:
+
+```{r}
+
+plot(x = heating$time, y = heating$black, type = "l", col = "black", xlab = "Time Elapsed (Minutes)", ylab = "Temp (Farheneit)", main = "Heating/Color Absorption")
+lines(x = heating$time, y = heating$red, col = "red")
+lines(x = heating$time, y = heating$green, col = "green")
+lines(x = heating$time, y = heating$pink, col = "pink")
+lines(x = heating$time, y = heating$white, col = "grey")
+
+plot(x = cooling$time, y = cooling$black, type = "l", col = "black", xlab = "Time Elapsed (Minutes)", ylab = "Temp (Farheneit)", main = "Cooling/Color Asborption")
+lines(x = cooling$time, y = cooling$red, col = "red")
+lines(x = cooling$time, y = cooling$green, col = "green")
+lines(x = cooling$time, y = cooling$pink, col = "pink")
+lines(x = cooling$time, y = cooling$white, col = "grey")
+
+```
+
+### Initial findings and Next steps
+
+The graphs look neat, and we can see that black is the fastest heat absorber.  
+
+The graphs also look symmetrical, but now that we see it in this form, it might make sense to view the cooling and heating data in one graph.  
+
+However, the data requires a bit more finagling to get this correct, such as:
+
+1: Minute "60" of the Heating Data is equivalent of Minute "0" of the Cooling.
+
+2: Minutes elapsed in the Cooling data need to be increased by 60 in order to create one continuous time series.
+
+Let's do it!
+
+### Combining Heating and Cooling Data
+
+```{r}
+# Remove minute 0 of the cooling dataset:
+
+heat_cool <- cooling[-1,]
+
+# Add 60 to the time column.
+
+heat_cool$time <- as.numeric(heat_cool$time) + 60
+
+# Stack this underneath the heating data
+
+heat_cool <- rbind(heating, heat_cool)
+
+heat_cool
+
+```
+
+Now we have a nice, neat and tidy dataset showing heating and cooling times.  Let's revisit those graphs we generated previously:
+
+
+```{r}
+plot(x = heat_cool$time, y = heat_cool$black, type = "l", col = "black", xlab = "Time Elapsed (Minutes)", ylab = "Temp (Farheneit)", main = "Cooling/Color Asborption")
+lines(x = heat_cool$time, y = heat_cool$red, col = "red")
+lines(x = heat_cool$time, y = heat_cool$green, col = "green")
+lines(x = heat_cool$time, y = heat_cool$pink, col = "pink")
+lines(x = heat_cool$time, y = heat_cool$white, col = "grey")
+
+```
+
+#### Calculating Rates (Hourly)
+
+Let's get a bit more quantitative.  Let's calculate the rates of heating and cooling for each of the colors:
+
+```{r}
+heating_rate <- (heating[7,3:7] - heating[1,3:7])/60
+
+heating_rate
+
+
+cooling_rate <- (cooling[7,3:7] - cooling[1,3:7])/60
+
+cooling_rate
+```
+
+Since the starting and ending temperatures were equivalent, we see the overall heating and cooling rates to be symmetrical to one another.  
+
+According to this test, a colors heating rate also dicates its cooling rate (or heat retention), at least on average over 120 minutes.
+
+Looking at these visually:
+
+```{r}
+heating_rate <- gather(heating_rate, color, temp)
+
+barplot(heating_rate$temp, col = heating_rate$color, names.arg = heating_rate$color, main = 'Heating Rates (by Color)', xlab = "Color", ylab = "Rate (Degrees per minute)")
+
+```
+
+However, this is looking at averages over the hour.  But what does temp change look like within each 10 minute interval?
+
+We can find this programmatically:
+
+### Calculating Rates (Per 10 Minutes)
+
+```{r}
+black_ht <- diff(heating$black)/10
+green_ht <- diff(heating$green)/10
+pink_ht <- diff(heating$pink)/10
+red_ht <- diff(heating$red)/10
+white_ht <- diff(heating$white)/10
+
+black_cl <- diff(cooling$black)/10
+green_cl <- diff(cooling$green)/10
+pink_cl <- diff(cooling$pink)/10
+red_cl <- diff(cooling$red)/10
+white_cl <- diff(cooling$white)/10
+
+ht_rates <- data.frame(black_ht, black_cl, green_ht, green_cl, pink_ht, pink_cl, red_ht, red_cl, white_ht, white_cl)
+
+ht_rates
+
+```
+
+
+Let's take a look at these visually:
+
+```{r}
+plot(x = seq(10, 60, 10), y = black_ht, type = "l", col = "black", ylim = c(-1.5,1.5), main = "Heating and Cooling Rates", sub = "Postive Values are Heating Rates, Negative are Cooling Rates", xlab = "Time Elapsed (Minutes)", ylab = "Heating and Cooling Rates")
+lines(seq(10, 60, 10),y = black_cl, col = "black")
+lines(seq(10, 60, 10),y = green_ht, col = "green")
+lines(seq(10, 60, 10),y = green_cl, col = "green")
+lines(seq(10, 60, 10),y = pink_ht, col = "pink")
+lines(seq(10, 60, 10),y = pink_cl, col = "pink")
+lines(seq(10, 60, 10),y = red_ht, col = "red")
+lines(seq(10, 60, 10),y = red_cl, col = "red")
+lines(seq(10, 60, 10),y = white_ht, col = "grey")
+lines(seq(10, 60, 10),y = white_cl, col = "grey")
+```
+
+This chart shows both heating and cooling rates.  The heating rates are postive (top of chart), while the cooling rates are negative (bottom of chart). 
+
+Matching like colors can show you how that color behaved in its heating and cooling phase.
+
+Being that our ultimate averages were very symmetrical (i.e. over the full 120 minute span), we might expect that each smaller interval would be symmetrical too.  
+
+However that doesn't always to be the case in this data.  Note the green line is often twice the magnitude of its counterpart.
+
+We can also see that all colors tend to converge to low values at the end of *both* periods.  Perhaps this speaks to a type of heating saturation paired with a similar flatline of cooling.
+
+### Some Conclusions and Questions for Future Analysis
+
+Some initial conclusions from our exploratory data analysis:
+
+1. Black has the fastest heating rate, and ~0.72 degrees per minute.  White has the slowest heating rate, at ~0.33 degrees per minute.  This was probably suspected based on known heuristics, and the data seems to confirm it.
+
+2. Heating rates and cooling rates were symmetrical over a 120 minute span.  However, they don't seem to be symmetric over smaller 10 minute spans.  Lots of variation of rates across that time.
+
+Some questions it raised:
+
+1. There seems to be a wide varience for temperature changes in the 10 minute intervals.  Is this typical?  Do temperature changes "slow" or otherwise change during based on when they occur in the time series?
+
+2. Heat absorbtion may very well not be a linear activity, a perhaps more detailed detail in needed to really understand the dynamics of these rates.
+
+
+
