@@ -4,10 +4,10 @@
 <title>
 Data Science for Business
 </title>
-<author>
+<author num="1">
 Foster Provost
 </author>
-<author>
+<author num="2">
 Tom Fawcett
 </author>
 <publisher>
@@ -43,10 +43,10 @@ Using data science to transform information into insights.
 <title>
 R for Data Science
 </title>
-<author>
+<author num="1">
 Hadley Wickham
 </author>
-<author>
+<author num="2">
 Garret Grolemund
 </author>
 <publisher>
