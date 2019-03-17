@@ -1,4 +1,4 @@
-[
+{books: [
 {
 "title": "Data Science for Business",
 "author": "Foster Provost",
@@ -23,5 +23,6 @@
 "isbn": "978-1-491-91039-9"
 }
 ]
+}
 
 
