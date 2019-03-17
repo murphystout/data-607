@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <books>
 
-<book>
+<book id = "1">
 <title>Data Science for Business</title>
   <authors>
     <author>Foster Provost</author>
@@ -12,7 +12,7 @@
 <isbn>978-1-449-36132-7</isbn>
 </book>
 
-<book>
+<book id = "2">
 <title>Data Smart</title>
   <authors>
     <author>John W. Forman</author>
@@ -22,7 +22,7 @@
 <isbn>978-1-118-66146-8</isbn>
 </book>
 
-<book>
+<book id = "3">
 <title>R for Data Science</title>
   <authors>
     <author>Hadley Wickham</author>
