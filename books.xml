@@ -3,8 +3,10 @@
 
 <book>
 <title>Data Science for Business</title>
-<author num="1">Foster Provost</author>
-<author num="2">Tom Fawcett</author>
+  <authors>
+    <author>Foster Provost</author>
+    <author>Tom Fawcett</author>
+  </author>
 <publisher>O'reilly</publisher>
 <subtitle>What you need to know about data mining and data-analytic thinking.</subtitle>
 <isbn>978-1-449-36132-7</isbn>
@@ -12,17 +14,20 @@
 
 <book>
 <title>Data Smart</title>
-<author>John W. Forman</author>
+  <authors>
+    <author>John W. Forman</author>
+  </author>
 <publisher>Wiley</publisher>
 <subtitle>Using data science to transform information into insights.</subtitle>
 <isbn>978-1-118-66146-8</isbn>
 </book>
 
 <book>
-<title>R for Data Science
-</title>
-<author num="1">Hadley Wickham</author>
-<author num="2">Garret Grolemund</author>
+<title>R for Data Science</title>
+  <authors>
+    <author>Hadley Wickham</author>
+    <author>Garret Grolemund</author>
+  <authors>
 <publisher>O'reilly</publisher>
 <subtitle>Import, Tidy, Transform, Visualize and Model Data</subtitle>
 <isbn>978-1-491-91039-9</isbn>
