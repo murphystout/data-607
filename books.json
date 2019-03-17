@@ -1,22 +1,22 @@
 {"books": [
 {
 "title": "Data Science for Business",
-"author": ["Foster Provost", "Tom Fawcett"],
-"publisher": "O'reilly",
+"authors": ["Foster Provost", "Tom Fawcett"],
+"publisher": "Oreilly",
 "subtitle": "What you need to know about data mining and data-analytic thinking.",
-"isbn": "978-1-449-36132-7",
+"isbn": "978-1-449-36132-7"
 },
 {
 "title": "Data Smart",
-"author": "John W. Forman",
+"authors": "John W. Forman",
 "publisher": "Wiley",
 "subtitle": "Using data science to transform information into insights.",
 "isbn": "978-1-118-66146-8"
 },
 {
 "title": "R for Data Science",
-"author": ["Hadley Wickham", "Garret Grolemund"],
-"publisher": "O'reilly",
+"authors": ["Hadley Wickham", "Garret Grolemund"],
+"publisher": "Oreilly",
 "subtitle": "Import, Tidy, Transform, Visualize and Model Data",
 "isbn": "978-1-491-91039-9"
 }
