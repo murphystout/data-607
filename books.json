@@ -1,8 +1,7 @@
 {"books": [
 {
 "title": "Data Science for Business",
-"author": "Foster Provost",
-"author": "Tom Fawcett",
+"author": ["Foster Provost", "Tom Fawcett"],
 "publisher": "O'reilly",
 "subtitle": "What you need to know about data mining and data-analytic thinking.",
 "isbn": "978-1-449-36132-7",
@@ -16,8 +15,7 @@
 },
 {
 "title": "R for Data Science",
-"author": "Hadley Wickham",
-"author": "Garret Grolemund",
+"author": ["Hadley Wickham", "Garret Grolemund"],
 "publisher": "O'reilly",
 "subtitle": "Import, Tidy, Transform, Visualize and Model Data",
 "isbn": "978-1-491-91039-9"
