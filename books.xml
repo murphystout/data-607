@@ -1,4 +1,5 @@
-<bookroot>
+<?xml version="1.0" ?>
+<books>
 
 <book>
 <title>
@@ -60,5 +61,5 @@ Import, Tidy, Transform, Visualize and Model Data
 </isbn>
 </book>
 
-</bookroot>
+</books>
 
