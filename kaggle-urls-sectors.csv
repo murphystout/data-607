@@ -1,0 +1,856 @@
+url,status_code,title_tag,agriculture,disease,dna,weather
+http://blog.kaggle.com/,200,No Free Hunch | The Official Blog of Kaggle.com,0,9,0,0
+http://blog.kaggle.com/2019/02/14/data-notes-analyzing-ethereum-classic-via-google-bigquery/,200,Data Notes: Analyzing Ethereum Classic via Google BigQuery | No Free Hunch,0,0,0,3
+http://blog.kaggle.com/category/kernels/,200,Kernels | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/open-data-spotlight/,200,open data spotlight | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/product/,200,Product | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/tutorial/,200,Tutorial | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/12/19/hackathon-winner-interview-penn-state-kaggle-university-club/,200,Hackathon Winner Interview: Penn State | Kaggle University Club | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/kaggle-news/,200,Kaggle News | No Free Hunch,0,9,0,0
+http://blog.kaggle.com/tag/open-data/,200,open data | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/tag/data-visualization/,200,data visualization | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/product-news/,200,Product News | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/heritage-health-prize/,200,Heritage Health Prize | No Free Hunch,0,51,0,0
+http://blog.kaggle.com/tag/deep-neural-networks/,200,deep neural networks | No Free Hunch,0,11,0,0
+http://blog.kaggle.com/category/open-datasets/,200,Open Datasets | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/flight-quest/,200,Flight Quest | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/tutorials/,200,Tutorials | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/kernels/,200,Kernels | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/tag/data-notes-tag/,200,Data Notes | No Free Hunch,0,17,0,0
+http://blog.kaggle.com/tag/draper-satellite-image-chronology/,200,Draper Satellite Image Chronology | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/kaggle-inclass/,200,Kaggle InClass | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/recruiting/,200,Recruiting | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/1-kaggler/,200,#1 Kaggler | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/page/42/,200,No Free Hunch | The Official Blog of Kaggle.com,0,0,0,0
+http://blog.kaggle.com/category/pulse-of-the-competition/,200,Pulse of the Competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2019/01/18/reviewing-2018-and-previewing-2019/,200,Reviewing 2018 and Previewing 2019 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/admin/,200,Anthony Goldbloom | No Free Hunch,0,6,0,0
+http://blog.kaggle.com/author/kaggleteam/,200,Kaggle Team | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/paulmooney/,200,Paul Mooney | No Free Hunch,0,17,0,0
+http://blog.kaggle.com/tag/natural-language-processing/,200,natural language processing | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/eeg-data/,200,EEG data | No Free Hunch,0,6,0,0
+http://blog.kaggle.com/tag/diabetic-retinopathy/,200,Diabetic Retinopathy | No Free Hunch,0,5,0,0
+http://blog.kaggle.com/2019/02/28/data-notes-homer-simpson-and-heart-disease/,200,Data Notes: Homer Simpson and Heart Disease | No Free Hunch,0,27,0,0
+http://blog.kaggle.com/2019/02/26/mhamedjabri/,200,The Future of AI in Africa Looks Bright | A Winner Interview with Mhamed Jabri | No Free Hunch,0,5,0,0
+http://blog.kaggle.com/tag/video-series/,200,video series | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2019/01/31/data-notes-how-to-teach-an-ai-to-dance/,200,Data Notes: How to Teach an AI to Dance | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/profiling-top-kagglers/,200,Profiling Top Kagglers | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/data-science-news/,200,Data Science News | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/scikit-learn/,200,scikit-learn | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/tag/computer-vision/,200,computer vision | No Free Hunch,0,7,0,0
+http://blog.kaggle.com/tag/scripts-of-the-week/,200,scripts of the week | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/tag/kaggle-datasets/,200,Kaggle Datasets | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/convolutional-neural-networks/,200,convolutional neural networks | No Free Hunch,0,5,0,0
+http://blog.kaggle.com/tag/march-mania/,200,March Mania | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/binary-classification/,200,binary classification | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/tag/dark-matter/,200,Dark Matter | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/logistic-regression/,200,logistic regression | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/eurovision-challenge/,200,Eurovision Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/diabetes/,200,diabetes | No Free Hunch,0,6,0,0
+http://blog.kaggle.com/tag/practice-fusion/,200,Practice Fusion | No Free Hunch,0,9,1,0
+http://blog.kaggle.com/2019/01/10/hackathon-winner-interview-penn-state-kaggle-university-club-2/,200,Hackathon Winner Interview: RUDN University | Kaggle University Club | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/image-classification/,200,image classification | No Free Hunch,0,5,0,0
+http://blog.kaggle.com/tag/feature-engineering/,200,feature engineering | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2019/01/03/data-notes-malaria-detection-with-fastai/,200,Data Notes: Malaria Detection with FastAI | No Free Hunch,0,0,0,3
+http://blog.kaggle.com/tag/tourism-forecasting/,200,Tourism Forecasting | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/annual-santa-competition/,200,Annual Santa Competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/wikipedia-challenge/,200,Wikipedia Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/how-much-did-it-rain/,200,How Much Did It Rain? | No Free Hunch,0,0,1,5
+http://blog.kaggle.com/tag/deloitte/,200,Deloitte | No Free Hunch,0,11,0,0
+http://blog.kaggle.com/page/3/,200,No Free Hunch | The Official Blog of Kaggle.com,0,0,0,0
+http://blog.kaggle.com/category/data-notes/,200,Data Notes | No Free Hunch,0,17,0,0
+http://blog.kaggle.com/2019/03/14/data-notes-surprising-insights-into-when-crowdfunding-works/,200,Data Notes: Surprising Insights Into When Crowdfunding Works | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2019/01/17/data-notes-kuzushiji-mnist-replacement/,200,Data Notes: Kuzushiji-MNIST Replacement and more | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/elo-chess-ratings-competition/,200,Elo Chess Ratings Competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/winners-interviews/,200,Winners’ Interviews | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/jessicali/,200,Jessica Li | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2019/01/14/kuc-teameda/,200,Hackathon Winner Interview: Hanyang University | Kaggle University Club | No Free Hunch,0,5,0,0
+http://blog.kaggle.com/tag/data-science-careers/,200,data science careers | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2019/01/08/from-a-night-of-insomnia-to-competition-winner-an-interview-with-martin-barron/,200,From a Night of Insomnia to Competition Winner | An Interview with Martin Barron | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/students/,200,Students | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/xgboost/,200,XGBoost | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/community/,200,community | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/regression-problem/,200,regression problem | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/multiclass-classification/,200,multiclass classification | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/uncategorized/,200,Uncategorized | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/page/2/,200,No Free Hunch | The Official Blog of Kaggle.com,0,11,0,0
+http://blog.kaggle.com/2015/12/03/dato-winners-interview-1st-place-mad-professors/,200,"Dato Winners’ Interview: 1st place, Mad Professors | No Free Hunch",0,5,0,0
+http://blog.kaggle.com/2015/12/21/rossmann-store-sales-winners-interview-1st-place-gert/,200,"Rossmann Store Sales, Winner’s Interview: 1st place, Gert Jacobusse | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2013/04/10/qa-with-xavier-conort/,200,Q&A with Xavier Conort | No Free Hunch,0,4,0,2
+http://blog.kaggle.com/2015/06/19/facebook-iv-winners-interview-2nd-place-kiri-nicholaka-small-yellow-duck/,200,"Facebook IV Winner’s Interview: 2nd place, Kiri Nichol(aka small yellow duck) | No Free Hunch",0,6,0,0
+http://blog.kaggle.com/tag/time-series-prediction/,200,time series prediction | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/01/19/introducing-kaggle-datasets/,200,Introducing Kaggle Datasets | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/kaggle-news/page/13/,200,Kaggle News | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/jure-zbontar/,200,Jure Zbontar | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/11/03/red-hat-business-value-competition-1st-place-winners-interview-darius-barusauskas/,200,"Red Hat Business Value Competition, 1st Place Winner’s Interview: Darius Barušauskas | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2017/11/15/product-launch-increased-dataset-resources/,200,Product Launch: Increased Dataset Resources | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/04/22/scikit-learn-video-3-machine-learning-first-steps-with-the-iris-dataset/,200,scikit-learn video #3: Machine learning first steps with the Iris dataset | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/11/23/how-we-did-it-david-slate-and-peter-frey-on-9th-place-in-elo-comp/,200,How we did it: David Slate and Peter Frey on 9th place in Elo comp | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/07/11/kaggle-progression-system-profile-design-launch/,200,Kaggle Progression System & Profile Redesign Launch | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/xgboost/page/2/,200,XGBoost | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/model-stacking/,200,model stacking | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/08/27/announcing-kaggle-jobs-board/,200,Announcing Kaggle Jobs Board | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/06/03/dataset-spotlight-how-isis-uses-twitter/,200,Dataset Spotlight: How ISIS Uses Twitter | Khuram Zaman | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/tag/lasagne/,200,Lasagne | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/tag/joblib/,200,joblib | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/author/markmc/,200,Mark McDonald | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/08/12/july-2015-scripts-of-the-week/,200,July 2015: Scripts of the Week | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/07/12/data-notes-how-to-forecast-the-sp-500-with-prophet/,200,Data Notes: How to Forecast the S&P 500 with Prophet | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/rnns/,200,RNNs | No Free Hunch,0,0,0,5
+http://blog.kaggle.com/2017/05/19/march-machine-learning-mania-1st-place-winners-interview-andrew-landgraf/,200,"March Machine Learning Mania, 1st Place Winner’s Interview: Andrew Landgraf | No Free Hunch",0,4,0,0
+http://blog.kaggle.com/tag/shelter-animal-outcomes/,200,shelter animal outcomes | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/tutorials/page/3/,200,Tutorials | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/color/,200,color | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/06/08/how-much-did-it-rain-winners-interview-2nd-place-no-rain-no-gain/,200,"How Much Did It Rain? Winner’s Interview: 2nd place, No Rain No Gain | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/masters/,200,Masters | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/scikit-learn/page/2/,200,scikit-learn | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/05/06/march-april-2016-scripts-of-the-week/,200,March & April 2016: Scripts of the Week | No Free Hunch,0,0,0,6
+http://blog.kaggle.com/2015/10/23/scikit-learn-video-9-better-evaluation-of-classification-models/,200,scikit-learn video #9: Better evaluation of classification models | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/12/07/tough-crowd-a-deep-dive-into-business-dynamics/,200,Tough Crowd: A Deep Dive into Business Dynamics | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/03/29/predicting-house-prices-playground-competition-winning-kernels/,200,Predicting House Prices Playground Competition: Winning Kernels | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/10/07/the-future-of-kaggle-data-science-quora-session-highlights-with-anthony-goldbloom-kaggle-ceo/,200,"The Future of Kaggle & Data Science: Quora Session Highlights with Anthony Goldbloom, Kaggle CEO | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2016/11/30/seventeen-ways-to-map-data-in-kaggle-kernels/,200,Seventeen Ways to Map Data in Kaggle Kernels: Tutorials for Python and R Users | No Free Hunch,0,0,0,3
+http://blog.kaggle.com/2015/07/08/june-2015-scripts-of-the-week/,200,June 2015: Scripts of the Week | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/humans-vs-robots-competition/,200,Humans vs. Robots Competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/dstl-satellite-imagery/,200,Dstl Satellite Imagery | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/global-terrorism-database/,200,global terrorism database | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/dato-truly-native/,200,Dato Truly Native? | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/04/08/new-video-series-introduction-to-machine-learning-with-scikit-learn/,200,scikit-learn video #1: Intro to machine learning with scikit-learn | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/03/08/kaggle-joins-google-cloud/,200,Kaggle Joins Google Cloud | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/icdm/,200,ICDM | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/ben-hamner/,200,Ben Hamner | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/12/28/mercedez-benz-greener-masking-first-place/,200,Mercedes-Benz Greener Masking Challenge Masking Challenge–1st Place Winner’s Interview | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/tag/ensemble/,200,ensemble | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/jeremy-howard/,200,Jeremy Howard | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/american-epilepsy-society-seizure-prediction-challenge/,200,American Epilepsy Society Seizure Prediction Challenge | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2018/04/03/q1-2018-product-update/,200,Quarterly product update: Create your data science projects on Kaggle | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/05/28/scikit-learn-video-6-linear-regression-plus-pandas-seaborn/,200,scikit-learn video #6: Linear regression (plus pandas & seaborn) | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/kernels/page/3/,200,Kernels | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/category/kernels/page/4/,200,Kernels | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/2011/11/01/small-steps-gareth-campbell/,200,Small steps: Gareth Campbell on placing fourth in Wikipedia’s Participation Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/06/07/may-scripts-of-the-week/,200,May 2015: Scripts of the Week | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/tag/home-depot-product-search-relevance/,200,Home Depot product search relevance | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/datasets/,200,datasets | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/tag/winton/,200,Winton | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/05/02/launch-of-the-kaggle-data-science-wiki/,200,Launch of the Kaggle Data Science Wiki | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2013/04/23/qa-with-guocong-song-3rd-prize-job-salary-prediction-competition/,200,"Q&A With Guocong Song, 3rd Prize, Job Salary Prediction Competition | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2018/05/07/profiling-top-kagglers-bestfitting-currently-1-in-the-world/,200,"Profiling Top Kagglers: Bestfitting, Currently #1 in the World | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2018/03/17/winding-paths-to-data-science-jesse-mostipak-director-data-systems-analysis-at-teaching-trust/,200,"Winding Paths to Data Science: Jesse Mostipak (Director, Data Systems & Analysis at Teaching Trust) | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2015/08/21/avito-winners-interview-2nd-place-changsheng-gu-aka-gzs_iceberg/,200,"Avito Winner’s Interview: 2nd place, Changsheng Gu (aka Gzs_iceberg) | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/author/admin/page/2/,200,Anthony Goldbloom | No Free Hunch,0,28,0,0
+http://blog.kaggle.com/author/dpmcna/,200,Daniel McNamara | No Free Hunch,0,7,0,0
+http://blog.kaggle.com/2018/11/27/kaggle-days/,200,LogicAI and Kaggle team up on Kaggle Days events in 2019 and beyond! | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/11/25/hpn-prize-progress-prize-winners-methods-revealed/,200,HPN Prize Progress Prize Winners’ Methods Revealed | No Free Hunch,0,11,0,0
+http://blog.kaggle.com/tag/dataset-of-the-week/,200,dataset of the week | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/06/15/dont-miss-these-scripts-otto-group-product-classification/,200,Don’t Miss These Scripts: Otto Group Product Classification | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/deepsense-io/,200,deepsense.io | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/tag/dogs-versus-cats/,200,dogs versus cats | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/05/07/profiling-top-kagglers-kazanovacurrently-2-in-the-world/,200,"Profiling Top Kagglers: KazAnova, Currently #2 in the World | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2016/05/10/march-machine-learning-mania-2016-winners-interview-1st-place-miguel-alomar/,200,"March Machine Learning Mania 2016, Winner’s Interview: 1st Place, Miguel Alomar | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2012/09/26/important-heritage-deadline-approaching/,200,Important Heritage Deadline Approaching | No Free Hunch,0,10,0,0
+http://blog.kaggle.com/tag/stock-market/,200,stock market | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/sales-forecast/,200,sales forecast | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/code-competition/,200,code competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/08/05/move-over-elo-introducing-the-chess-rating-system-competition/,200,Move over Elo – introducing the chess rating competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/03/22/phil-brierley-on-winning-tourism-forecasting-part-two/,200,Phil Brierley on winning tourism forecasting part two | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2010/11/24/my-experience-running-the-contest-and-lessons-learned-for-next-time/,200,"My experience running the contest, and lessons learned for next time | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2015/09/22/caterpillar-winners-interview-1st-place-gilberto-josef-leustagos-mario/,200,"Caterpillar Winners’ Interview: 1st place, Gilberto | Josef | Leustagos | Mario | No Free Hunch",0,4,0,0
+http://blog.kaggle.com/2017/12/26/your-year-on-kaggle-most-memorable-community-stats-from-2017/,200,Your Year on Kaggle: Most Memorable Community Stats from 2017 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/data-collection/,200,data collection | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/06/06/analyze-this-practice-fusion-on-kaggle-prospect/,200,Analyze This! Practice Fusion on Kaggle Prospect | No Free Hunch,0,14,0,0
+http://blog.kaggle.com/2010/06/09/computer-scientist-jure-zbontars-method-for-winning-the-eurovision-challenge/,200,Computer scientist Jure Zbontar on winning the Eurovision challenge | No Free Hunch,0,6,0,0
+http://blog.kaggle.com/2018/09/20/data-notes-how-do-autoencoders-work/,200,Data Notes: How Do Autoencoders Work? | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/author/thekaggleteam/,200,The Kaggle Team | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/kevin-markham/,200,Kevin Markham | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/mkazi/,200,Minhaz Kazi | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/claims-prediction/,200,Claims Prediction | No Free Hunch,0,6,0,0
+http://blog.kaggle.com/2016/10/05/open-data-spotlight-horses-for-courses-luke-byrne/,200,Open Data Spotlight: Horses for Courses | Luke Byrne | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/06/29/kaggle-update-from-wikipedia-to-the-white-house/,200,Kaggle Update: from Wikipedia to the White House | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/seizure-prediction/,200,seizure prediction | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/python/,200,Python | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/11/19/how-i-did-it-jeremy-howard-on-finishing-second/,200,How I did it: Jeremy Howard on finishing second | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/07/02/new-machine-learning-and-natural-language-processing-qa-site/,200,New machine learning and natural language processing Q+A site | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/04/08/homesite-quote-conversion-winners-write-up-1st-place-kazanova-faron-clobber/,200,"Homesite Quote Conversion, Winners’ Write-Up, 1st Place: KazAnova | Faron | clobber | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2015/07/01/how-much-did-it-rain-winners-interview-1st-place-devin-anzelmo/,200,"How Much Did It Rain? Winner’s Interview: 1st place, Devin Anzelmo | No Free Hunch",0,4,1,1
+http://blog.kaggle.com/tag/meetup/,200,meetup | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/ngruen/,200,Nicholas Gruen | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/12/22/carvana-image-masking-first-place-interview/,200,Carvana Image Masking Challenge–1st Place Winner’s Interview | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/07/14/kaggle-master-data-scientist-author-an-interview-with-luca-massaron/,200,"Kaggle Master, data scientist, & author: An interview with Luca Massaron | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2017/08/09/learn-data-science-from-kaggle-competition-meetups/,200,Learn Data Science from Kaggle Competition Meetups | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/mariosmichailidis/,200,Marios Michailidis | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/bruce_sharpe/,200,Bruce Sharpe | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/03/20/class-act-tim-salimans-awarded-for-kaggle-in-class/,200,Class Act: Tim Salimans awarded for Kaggle in Class | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/data-science-news/page/2/,200,Data Science News | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/tag/painter-by-numbers/,200,painter by numbers | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/03/20/the-motivation-of-the-kaggle-crowd/,200,The Motivation of the Kaggle Crowd | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/05/29/the-thrill-of-the-chase-tim-salisman-on-how-he-took-home-deloittefide-chess-comp/,200,The thrill of the chase: Tim Salimans on how he took home Deloitte/Fide chess comp | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/04/21/spotters-fee-for-competitions-ideas/,200,Spotters fee for competition ideas | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/mylesoneill/,200,Myles O’Neill | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/04/24/the-deloittefide-chess-competition-play-by-play/,200,The Deloitte/FIDE Chess Competition: Play by Play | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/11/30/automatic-job-interviews-for-top-10-finishers/,200,Automatic Job Interviews for Top 10 Finishers | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/07/07/the-nature-conservancy-fisheries-monitoring-competition-1st-place-winners-interview-team-towards-robust-optimal-learning-of-learning/,200,"The Nature Conservancy Fisheries Monitoring Competition, 1st Place Winner’s Interview: Team ‘Towards Robust-Optimal Learning of Learning’ | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2014/04/22/sergey-kozub-a-winner-in-both-flight-quest-1-and-2/,200,"Sergey Kozub, A Winner in both Flight Quest 1 and 2 | No Free Hunch",0,0,0,1
+http://blog.kaggle.com/tag/telstra-network-disruptions/,200,Telstra Network Disruptions | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/tuning-parameters/,200,tuning parameters | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/geospatial-data/,200,geospatial data | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/06/29/communicating-data-science-a-guide-to-presenting-your-work/,200,Communicating data science: A guide to presenting your work | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/04/17/the-best-sources-to-study-machine-learning-and-ai-with-ben-hamner-kaggle-cto/,200,"The Best Sources to Study Machine Learning and AI: Quora Session Highlight | Ben Hamner, Kaggle CTO | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2016/08/18/facebook-v-predicting-check-ins-winners-interview-3rd-place-ryuji-sakata/,200,"Facebook V: Predicting Check Ins, Winner’s Interview: 3rd Place, Ryuji Sakata | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/facebook-recruiting/,200,Facebook Recruiting | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/adam-kennedy/,200,Adam Kennedy | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/owen-zhang/,200,Owen Zhang | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/05/19/introducing-new-usernames-vanity-urls/,200,Introducing New Usernames & Vanity URLs | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/grasp-and-lift-eeg-detection/,200,Grasp-and-Lift EEG Detection | No Free Hunch,0,5,0,0
+http://blog.kaggle.com/2018/11/01/data-notes-chinese-tourisms-impact-on-taiwan/,200,Data Notes: Chinese Tourism’s Impact on Taiwan | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/06/19/tales-from-my-first-year-inside-the-head-of-a-recent-kaggle-addict/,200,"Profiling Top Kagglers: Martin Henze (AKA Heads or Tails), World’s First Kernels Grandmaster | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/author/mrisdal/,200,Megan Risdal | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/jobs-board/,200,Jobs Board | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/tutorials/page/2/,200,Tutorials | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/07/22/crowdflower-winners-interview-3rd-place-team-quartet/,200,"CrowdFlower Winners’ Interview: 3rd place, Team Quartet | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/deep-convolutional-neural-networks/,200,deep convolutional neural networks | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/anthony-goldbloom/,200,Anthony Goldbloom | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/otto-product-classification/,200,Otto Product Classification | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/02/01/datacamp-interactive-r-tutorial-data-exploration-with-kaggle-scripts/,200,DataCamp Interactive R Tutorial: Data Exploration with Kaggle Scripts | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/web-scraping/,200,web scraping | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/11/17/new-competition-algorithmic-trading-challenge/,200,New Competition: Algorithmic Trading Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/05/04/petterson-takes-home-the-emc-data-science-global-hackathon-prize/,200,Petterson takes home the EMC Data Science Global Hackathon Prize | No Free Hunch,0,8,0,0
+http://blog.kaggle.com/2017/09/20/data-notes-back-to-school-tutorial-kernels-datasets-awards/,200,Data Notes: Back to school tutorial Kernels + Datasets Awards | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/10/04/from-soundtracks-and-signatures/,200,From Soundtracks & Signatures to Stars & Galaxies: Ali Hassaïne and Eu Jin Lok on finishing third on the Mapping Dark Matter Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/hp/,200,HP | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/kagglers-in-careers/,200,kagglers in careers | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/09/27/grupo-bimbo-inventory-demand-winners-interviewclustifier-alex-andrey/,200,"Grupo Bimbo Inventory Demand, Winners’ Interview: Clustifier & Alex & Andrey | No Free Hunch",0,0,1,0
+http://blog.kaggle.com/author/iain-murray/,200,Iain Murray | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/05/05/march-machine-learning-mania-4th-place-winners-interview-erik-forseth/,200,"March Machine Learning Mania, 4th Place Winner’s Interview: Erik Forseth | No Free Hunch",0,4,0,0
+http://blog.kaggle.com/tag/chess/,200,chess | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/11/08/kaggle-in-class-launches-with-stanford-stats-202/,200,Kaggle-in-Class launches with Stanford Stats 202 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/11/27/introduction-to-neural-networks/,200,Introduction To Neural Networks | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/joyplots/,200,joyplots | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/house-prices-playground-competition/,200,house prices playground competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/11/17/kaggles-hello-world-moment/,200,Kaggle’s ‘Hello World’ Moment | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/06/17/competition-scripts-techniques-for-tackling-image-processing/,200,Competition Scripts: Techniques for Tackling Image Processing | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/classification-problem/,200,classification problem | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/04/20/dogs-vs-cats-redux-playground-competition-3rd-place-interview-marco-lugo/,200,"Dogs vs. Cats Redux Playground Competition, 3rd Place Interview: Marco Lugo | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2016/10/27/open-data-spotlight-daily-news-for-stock-market-prediction-jiahao-sun/,200,Open Data Spotlight: Daily News for Stock Market Prediction | Jiahao Sun | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/author/paulmooney/page/2/,200,Paul Mooney | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/kaggleteam/page/3/,200,Kaggle Team | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/06/22/profiling-top-kagglers-owen-zhang-currently-1-in-the-world/,200,"Profiling Top Kagglers: Owen Zhang, Currently #1 in the World | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/category/data-science-news/page/6/,200,Data Science News | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/2018/01/22/reviewing-2017-and-previewing-2018/,200,Reviewing 2017 and Previewing 2018 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/06/01/home-depot-product-search-relevance-winners-interview-3rd-place-team-turing-test-igor-kostia-chenglong/,200,"Home Depot Product Search Relevance, Winners’ Interview: 3rd Place, Team Turing Test | Igor, Kostia, & Chenglong | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2016/05/18/home-depot-product-search-relevance-winners-interview-1st-place-alex-andreas-nurlan/,200,"Home Depot Product Search Relevance, Winners’ Interview: 1st Place | Alex, Andreas, & Nurlan | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2016/04/28/yelp-restaurant-photo-classification-winners-interview-1st-place-dmitrii-tsybulevskii/,200,"Yelp Restaurant Photo Classification, Winner’s Interview: 1st Place, Dmitrii Tsybulevskii | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2016/02/10/profiling-top-kagglers-kazanova-new-1-in-the-world/,200,"Profiling Top Kagglers: KazAnova, New #1 in the World | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/author/joseph-turian/,200,Joseph Turian | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/andreas-mueller/,200,Andreas Mueller | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/08/22/intel-mobileodt-cervical-cancer-screening-competition-1st-place-winners-interview-team-towards-empirically-stable-training/,200,"Intel & MobileODT Cervical Cancer Screening Competition, 1st Place Winner’s Interview: Team ‘Towards Empirically Stable Training’ | No Free Hunch",0,4,0,0
+http://blog.kaggle.com/2016/04/25/free-kaggle-machine-learning-tutorial-for-python/,200,Free Kaggle Machine Learning Tutorial for Python | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/tag/kernels/page/2/,200,Kernels | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/kernels/page/3/,200,Kernels | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/tag/cross-validation/,200,Cross Validation | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/08/10/detecting-diabetic-retinopathy-in-eye-images/,200,Detecting Diabetic Retinopathy in Eye Images | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2016/02/12/winton-stock-market-challenge-winners-interview-3rd-place-mendrika-ramarlina/,200,"Winton Stock Market Challenge, Winner’s Interview: 3rd place, Mendrika Ramarlina | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2016/04/13/diagnosing-heart-diseases-with-deep-neural-networks-2nd-place-ira-korshunova/,200,"Diagnosing Heart Diseases in the Data Science Bowl: 2nd place, Team kunsthart | No Free Hunch",0,26,0,0
+http://blog.kaggle.com/2016/02/26/genentech-cervical-cancer-screening-winners-interview-1st-place-michael-giulio/,200,"Genentech Cervical Cancer Screening, Winners’ Interview: 1st place, Michael & Giulio | No Free Hunch",0,6,0,0
+http://blog.kaggle.com/tag/year-in-stats/,200,year in stats | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/noaa-right-whale-recognition/,200,NOAA Right Whale Recognition | No Free Hunch,0,5,0,0
+http://blog.kaggle.com/2010/11/25/tourism-forecasting-competition-ends/,200,Tourism forecasting competition ends | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/ge-industrial/,200,GE Industrial | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/07/21/approaching-almost-any-machine-learning-problem-abhishek-thakur/,200,Approaching (Almost) Any Machine Learning Problem | Abhishek Thakur | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/05/02/homesite-quote-conversion-winners-interview-2nd-place-team-frenchies-nicolas-florian-pierre/,200,"Homesite Quote Conversion, Winners’ Interview: 2nd Place, Team Frenchies | Nicolas, Florian, & Pierre | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2012/07/18/what-do-top-kaggle-competitors-focus-on/,200,What do top Kaggle competitors focus on? | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/06/19/2-more-weeks-to-go-practice-fusion-prediction-challenge/,200,2 More Weeks To Go: Practice Fusion Prediction Challenge | No Free Hunch,0,5,0,0
+http://blog.kaggle.com/2018/02/07/a-brief-summary-of-the-kaggle-text-normalization-challenge/,200,A Brief Summary of the Kaggle Text Normalization Challenge | No Free Hunch,0,5,0,0
+http://blog.kaggle.com/tag/image-processing/,200,image processing | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/genentech/,200,Genentech | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2016/08/31/avito-duplicate-ads-detection-winners-interview-2nd-place-team-the-quants-mikel-peter-marios-sonny/,200,"Avito Duplicate Ads Detection, Winners’ Interview: 2nd Place, Team TheQuants | Mikel, Peter, Marios, & Sonny | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/allen-ai-science-challenge/,200,Allen AI Science Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/03/26/march-mania-2015-round-of-16-predictions/,200,March Mania 2015: Round of 16 Predictions | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/triskelion/,200,Triskelion | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/tag/bnp-paribas-cardif-claims-management/,200,BNP Paribas Cardif Claims Management | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/09/23/and-the-winners-of-the-milestone-prizes-are/,200,And The Winners of the Milestone Prizes Are | No Free Hunch,0,10,0,0
+http://blog.kaggle.com/2016/02/10/my-kaggle-experience-spot-chasing-retirement/,200,My Kaggle Experience & Spot-Chasing Retirement | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/11/24/how-we-did-it-jeremy-howard-on-winning-the-tourism-forecasting-competitoin/,200,How we did it: Jeremy Howard on winning the tourism forecasting competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/sports-analytics/,200,sports analytics | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/04/30/scikit-learn-video-4-model-training-and-prediction-with-k-nearest-neighbors/,200,scikit-learn video #4: Model training and prediction with K-nearest neighbors | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/08/10/communicating-data-science-why-and-some-of-the-how-to-visualize-information/,200,Communicating data science: Why and (some of the) how to visualize information | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/03/19/winding-paths-to-data-science-megan-risdal-data-scientist-and-product-lead-at-kaggle/,200,Winding Paths to Data Science: Megan Risdal (Data Scientist & Product Lead at Kaggle) | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/01/05/kaggle-inclass-stanfords-getting-a-handel-on-data-science-winners-report/,200,Kaggle InClass: Stanford’s “Getting a Handel on Data Science” Winners’ Report | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/05/13/bnp-paribas-cardif-claims-management-winners-interview-1st-place-team-dexters-lab-darius-davut-song/,200,"BNP Paribas Cardif Claims Management, Winners’ Interview: 1st Place, Team Dexter’s Lab | Darius, Davut, & Song | No Free Hunch",0,4,0,0
+http://blog.kaggle.com/2018/11/06/new-maintained-datasets/,200,New: Maintained Datasets | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/kaggle-team/,200,Kaggle Team | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/10/05/data-science-101-sentiment-analysis-in-r-tutorial/,200,Data Science 101: Sentiment Analysis in R Tutorial | No Free Hunch,0,0,1,0
+http://blog.kaggle.com/tag/interview/,200,Interview | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/insurance/,200,insurance | No Free Hunch,0,6,0,0
+http://blog.kaggle.com/2017/06/06/weve-passed-1-million-members/,200,We’ve passed 1 million members | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/11/09/profiling-top-kagglers-gilberto-titericz-new-1-in-the-world/,200,"Profiling Top Kagglers: Gilberto Titericz, New #1 in the World | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2012/10/03/practice-fusion-diabetes-classification-interviews-with-winners/,200,Practice Fusion Diabetes Classification – Interviews with Winners | No Free Hunch,0,15,0,0
+http://blog.kaggle.com/author/margitzwemer/,200,Margit Zwemer | No Free Hunch,0,7,0,0
+http://blog.kaggle.com/2015/05/27/interactive-r-tutorial-machine-learning-for-the-titanic-competition/,200,Interactive R Tutorial: Machine Learning for the Titanic Competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/api/,200,API | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/ge-industrial-internet-flight/,200,GE Industrial Internet Flight | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/05/10/mothers-day-interview-how-nicole-finnie-became-a-competitive-kaggler-on-maternity-leave/,200,Mother’s Day Interview: How Nicole Finnie Became a Competitive Kaggler on Maternity Leave | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2013/07/11/celebrating-100000-kaggle-members/,200,"Celebrating 100,000 Kaggle Members | No Free Hunch",0,4,0,0
+http://blog.kaggle.com/2017/06/15/stacking-made-easy-an-introduction-to-stacknet-by-competitions-grandmaster-marios-michailidis-kazanova/,200,Stacking Made Easy: An Introduction to StackNet by Competitions Grandmaster Marios Michailidis (KazAnova) | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/04/24/competition-proposals-for-icdm-2010/,200,Competition proposals for the ICDM data mining conference | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/07/26/data-notes-winning-solutions-of-kaggle-competitions/,200,Data Notes: Winning Solutions of Kaggle Competitions | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/08/23/data-notes-drought-and-the-war-in-syria/,200,Data Notes: Drought and the War in Syria | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/zillow-prize/,200,Zillow Prize | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/04/03/march-mania-2015-round-of-4-predictions/,200,March Mania 2015: Round of 4 Predictions | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/06/28/data-notes-your-smartphone-knows-what/,200,Data Notes: Your smartphone knows *what*? | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/11/17/new-kaggle-team-members/,200,New Kaggle Team Members | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/page/41/,200,No Free Hunch | The Official Blog of Kaggle.com,0,0,0,1
+http://blog.kaggle.com/2011/03/26/kaggle-2-0-has-arrived/,200,Kaggle 2.0 has arrived! | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/author/joycenoahvanhoucke/,200,Joyce Noah-Vanhoucke | No Free Hunch,0,9,1,0
+http://blog.kaggle.com/2017/01/05/your-year-on-kaggle-most-memorable-community-stats-from-2016/,200,Your Year on Kaggle: Most Memorable Community Stats from 2016 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/12/04/image-processing-machine-learning-in-r-denoising-dirty-documents-tutorial-series/,200,Image Processing + Machine Learning in R: Denoising Dirty Documents Tutorial Series | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/12/13/summary-of-elo-chess-ratings-competition-stage-set-for-part-ii/,200,"Summary of Elo chess ratings competition, stage set for Part II | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2017/01/31/scraping-for-craft-beers-a-dataset-creation-tutorial/,200,Scraping for Craft Beers: A Dataset Creation Tutorial | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/12/19/1st-place-observing-dark-worlds/,200,1st Place: Observing Dark Worlds | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/06/23/facebook-iv-winners-interview-1st-place-peter-best-aka-fakeplastictrees/,200,"Facebook IV Winner’s Interview: 1st place, Peter Best (aka fakeplastictrees) | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/optimization-problem/,200,optimization problem | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/09/06/data-notes-the-secret-to-getting-to-a-second-date/,200,Data Notes: The Secret to Getting to a Second Date | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/11/02/pulse-of-the-competition-november-edition/,200,Pulse of the Competition: November Edition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/12/17/how-much-did-it-rain-ii-2nd-place-luis-andre-dutra-e-silva/,200,"How Much Did It Rain? II: 2nd place, Luis Andre Dutra e Silva | No Free Hunch",0,4,0,1
+http://blog.kaggle.com/2011/02/08/how-i-did-it-yannis-sismanis-on-winning-the-elo-chess-ratings-competition/,200,How I did it: Yannis Sismanis on Winning the first Elo Chess Ratings Competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/avito-duplicate-ads-detection/,200,Avito Duplicate Ads Detection | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/ieee-transaction/,200,IEEE Transaction | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/07/08/kaggle-kernel-a-new-name-for-scripts/,200,Kaggle Kernels: A New Name for “Scripts” | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/communicating-data-science/,200,communicating data science | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/recurrent-neural-networks/,200,Recurrent Neural Networks | No Free Hunch,0,0,0,5
+http://blog.kaggle.com/tag/lstm/,200,LSTM | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/santas-stolen-sleigh/,200,Santa’s Stolen Sleigh | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/01/26/open-data-spotlight-the-global-terrorism-database/,200,Open Data Spotlight: The Global Terrorism Database | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/03/27/from-kaggle-competition-to-start-up-and-tracking-2-million-km²-of-forest/,200,From Kaggle competition to start-up and tracking 2 million km² of forest | No Free Hunch,2,0,0,0
+http://blog.kaggle.com/2016/02/19/december-2015-january-2016-scripts-of-the-week/,200,December 2015 & January 2016: Scripts of the Week | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/tag/private-competitions/,200,Private Competitions | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/martinhenze/,200,Martin Henze | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/01/19/creating-santas-stolen-sleigh-kaggles-annual-optimization-competition/,200,"Creating Santa’s Stolen Sleigh, Kaggle’s Annual Optimization Competition | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/future-of-data-science/,200,Future of Data Science | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/jnhould/,200,Jean-Nicholas Hould | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/zillow/,200,Zillow | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/annamontoya/,200,Anna Montoya | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/2017/02/06/seizure-prediction-competition-first-place-winners-interview-team-not-so-random-anymore-andriy-alexandre-feng-gilberto/,200,"Seizure Prediction Competition: First Place Winners’ Interview, Team Not-So-Random-Anymore | Andriy, Alexandre, Feng, & Gilberto | No Free Hunch",0,6,0,0
+http://blog.kaggle.com/author/jeffreydefauw/,200,Jeffrey De Fauw | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/03/21/product-update-create-and-manage-datasets-from-the-command-line-using-the-official-kaggle-api/,200,Product Update: Create and Manage Datasets from the Command Line using the Official Kaggle API | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/march-mania/page/2/,200,March Mania | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/benjamin-hamner/,200,Ben Hamner | No Free Hunch,0,0,0,7
+http://blog.kaggle.com/tag/dato/,200,Dato | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/04/23/kaggle-newsletter-data-on-a-journey/,200,Kaggle Newsletter: Data on a Journey | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/category/kaggle-news/page/3/,200,Kaggle News | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/how-to-start-a-kaggle-meetup/,200,how to start a kaggle meetup | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/01/12/santander-product-recommendation-competition-2nd-place-winners-solution-write-up-tom-van-de-wiele/,200,"Santander Product Recommendation Competition, 2nd Place Winner’s Solution Write-Up | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2014/04/22/ge-announces-the-winners-of-flight-quest-2/,200,GE announces the winners of Flight Quest 2! | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/2017/12/06/introduction-to-neural-networks-2/,200,Introduction To Neural Networks Part 2 – A Worked Example | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/04/06/march-mania-2015-final-game-predictions/,200,March Mania 2015: Final Game Predictions | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/pandas/,200,Pandas | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/page/4/,200,No Free Hunch | The Official Blog of Kaggle.com,0,0,0,0
+http://blog.kaggle.com/tag/data-notes/,200,data notes | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/10/26/long-live-wikipedia-dell-zhang/,200,Long live Wikipedia: Dell Zhang on placing third in Wikipedia’s Participation Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/andrewheusser/,200,Andrew Heusser | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/03/23/winners-interview-bci-challenge-ner2015/,200,Winner’s Interview: BCI Challenge @ NER2015 | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/author/keshavcommonlounge-com/,200,Keshav Dhandhania | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/reporting/,200,Reporting | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/02/05/how-to-get-started-with-data-science-in-containers/,200,How to get started with data science in containers | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/kagglers/,200,Kagglers | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/kaggleteam/page/2/,200,Kaggle Team | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/09/25/datalanche-pf-open-challenge-1st-place/,200,Datalanche: PF Open Challenge 1st place | No Free Hunch,0,8,0,0
+http://blog.kaggle.com/2016/08/05/predicting-shelter-animal-outcomes-team-kaggle-for-the-paws-andras-zsom/,200,Predicting Shelter Animal Outcomes: Team Kaggle for the Paws | Andras Zsom | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/01/22/rossmann-store-sales-winners-interview-3rd-place-cheng-gui/,200,"Rossmann Store Sales, Winner’s Interview: 3rd place, Neokami Inc. | No Free Hunch",0,5,0,0
+http://blog.kaggle.com/category/kernels/page/2/,200,Kernels | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/2018/01/24/october-kaggle-dataset-publishing-awards-winners-interview-2/,200,Our Final Kaggle Dataset Publishing Awards Winners’ Interviews (November 2017 and December 2017) | No Free Hunch,0,8,0,8
+http://blog.kaggle.com/2017/04/06/datasets-of-the-week-march-2017/,200,"Datasets of the Week, March 2017 | No Free Hunch",0,0,0,2
+http://blog.kaggle.com/tag/data-notes-tag/page/2/,200,Data Notes | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/stephanie-wayne/,200,Stephanie Wayne | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/data-exploration/,200,data exploration | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/dataset-publishing-awards/,200,Dataset Publishing Awards | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/08/16/facebook-v-predicting-check-ins-winners-interview-1st-place-tom-van-de-wiele/,200,"Facebook V: Predicting Check Ins, Winner’s Interview: 1st Place, Tom Van de Wiele | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2016/07/06/june-2016-scripts-of-the-week/,200,June 2016: Scripts of the Week | No Free Hunch,0,5,0,0
+http://blog.kaggle.com/2014/02/05/yesterday-a-kaggler-dogs-vs-cats/,200,Yesterday a kaggler… Dogs vs Cats | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/astrodave/,200,David Harvey | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/playground-competition/,200,playground competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/05/05/kaggle-update/,200,Kaggle Update | No Free Hunch,0,13,0,0
+http://blog.kaggle.com/tag/elite-8/,200,Elite 8 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/rtatman/,200,Rachael Tatman | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/08/29/from-kaggle-to-google-deepmind-an-interview-with-sander-dieleman/,200,From Kaggle to Google DeepMind: An interview with Sander Dieleman | No Free Hunch,0,6,0,1
+http://blog.kaggle.com/tag/google-deepmind/,200,google deepmind | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/neural-network/,200,neural network | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/09/04/august-2015-scripts-of-the-week/,200,August 2015: Scripts of the Week | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2017/04/26/dstl-satellite-imagery-competition-1st-place-winners-interview-kyle-lee/,200,"Dstl Satellite Imagery Competition, 1st Place Winner’s Interview: Kyle Lee | No Free Hunch",0,4,0,0
+http://blog.kaggle.com/category/tutorials/page/5/,200,Tutorials | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/dimensionality-reduction/,200,dimensionality reduction | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/caterpillar/,200,Caterpillar | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/03/24/leaf-classification-competition-1st-place-winners-interview-ivan-sosnovik/,200,"Leaf Classification Competition: 1st Place Winner’s Interview, Ivan Sosnovik | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/grupo-bimbo-inventory-demand/,200,Grupo Bimbo inventory demand | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/02/04/noaa-right-whale-recognition-winners-interview-2nd-place-felix-lau/,200,"NOAA Right Whale Recognition, Winner’s Interview: 2nd place, Felix Lau | No Free Hunch",0,5,0,0
+http://blog.kaggle.com/2015/08/19/chinese-valentines-day-machine-learners-in-love-xueer-jiwei/,200,"Chinese Valentine’s Day: Machine Learners in Love, Xueer & Jiwei | No Free Hunch",0,4,1,0
+http://blog.kaggle.com/2010/09/21/elo-vs-the-rest-of-the-world-at-the-halfway-mark/,200,Elo vs the Rest of the World at the halfway mark | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/05/04/yelp-restaurant-photo-classification-winners-interview-2rd-place-thuyen-ngo/,200,"Yelp Restaurant Photo Classification, Winner’s Interview: 2nd Place, Thuyen Ngo | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2016/09/30/profiling-top-kagglers-walter-reade-worlds-first-discussions-grandmaster/,200,"Profiling Top Kagglers: Walter Reade, World’s First Discussions Grandmaster | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2018/06/21/open-source-datasets-with-kaggle/,200,Open Source Datasets with Kaggle | No Free Hunch,0,5,0,0
+http://blog.kaggle.com/tag/ieee/,200,IEEE | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/keras/,200,Keras | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/02/06/winning-personalized-web-search-team-dataiku/,200,Winning the Personalized Web Search Challenge: team Dataiku Data Science Studio | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/author/david-wind/,200,David Kofoed Wind | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/rossmann-store-sales/,200,Rossmann Store Sales | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/07/16/scikit-learn-video-8-efficiently-searching-for-optimal-tuning-parameters/,200,scikit-learn video #8: Efficiently searching for optimal tuning parameters | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/10/30/dato-winners-interview-2nd-place-mortehu/,200,"Dato Truly Native? Winner’s Interview: 2nd place, mortehu | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2015/03/19/march-mania-2015-round-of-64-predictions/,200,March Mania 2015: Round of 64 Predictions | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/11/15/data-notes-impact-of-game-of-thrones-on-us-baby-names/,200,Data Notes: Impact of Game of Thrones on US Baby Names | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/09/09/diabetic-retinopathy-winners-interview-1st-place-ben-graham/,200,"Diabetic Retinopathy Winner’s Interview: 1st place, Ben Graham | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2016/04/09/the-allen-ai-science-challenge-winners-interview-3rd-place-alejandro-mosquera/,200,"The Allen AI Science Challenge, Winner’s Interview: 3rd place, Alejandro Mosquera | No Free Hunch",0,4,0,0
+http://blog.kaggle.com/2018/09/19/help-i-cant-reproduce-a-machine-learning-project/,200,Help! I can’t reproduce a machine learning project! | No Free Hunch,0,0,1,0
+http://blog.kaggle.com/2016/04/04/february-2016-scripts-of-the-week/,200,February 2016: Scripts of the Week | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/gradient-boosting-trees/,200,Gradient Boosting Trees | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2016/10/11/profiling-kagglers-in-careers-a-conversation-with-david-duris/,200,"Profiling Kagglers in Careers: A Conversation with David, Data Scientist at SeamlessML | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/stacknet/,200,StackNet | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/03/06/open-data-spotlight-government-of-india-census/,200,Open Data Spotlight: Government of India Census | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/tag/sweet-16/,200,Sweet 16 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/page/40/,200,No Free Hunch | The Official Blog of Kaggle.com,0,0,0,0
+http://blog.kaggle.com/author/noah/,200,Noah Daniels | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/11/16/introducing-data-science-for-good-events-on-kaggle/,200,Introducing Data Science for Good Events on Kaggle | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/crowdflower-search-results-relevance/,200,CrowdFlower Search Results Relevance | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/12/15/bosch-production-line-performance-competition-winners-interview-3rd-place-team-data-property-avengers-darragh-marios-mathias-stanislav/,200,"Bosch Production Line Performance Competition Winners’ Interview: 3rd Place, Team Data Property Avengers | Darragh, Marios, Mathias, & Stanislav | No Free Hunch",0,7,0,0
+http://blog.kaggle.com/tag/maps/,200,maps | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/10/05/grasp-and-lift-eeg-detection-winners-interview-3rd-place-team-hedj/,200,"Grasp-and-Lift EEG Detection Winners’ Interview: 3rd place, Team HEDJ | No Free Hunch",0,4,0,0
+http://blog.kaggle.com/author/jeff-sonas/,200,Jeff Sonas | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/09/27/how-i-did-it-lee-baker-on-winning-tourism-forecasting-part-one/,200,How I did it: Lee Baker on winning Tourism Forecasting Part One | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/11/20/how-i-did-it-martin-reichert-on-3rd-place-in-elo-comp/,200,How I did it: Martin Reichert on 3rd place in Elo comp | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/06/07/may-2016-scripts-of-the-week/,200,May 2016: Scripts of the Week | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/05/30/statisticians-outperform-eurovision-betting-markets/,200,Statisticians outperform Eurovision betting markets | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/author/tvdwiele/,200,Tom Van de Wiele | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/03/02/becoming-a-data-scientist-profiling-ciscos-data-science-certification-program/,200,Becoming a Data Scientist: Profiling Cisco’s Data Science Certification Program | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/state-farm-distracted-driver-detection/,200,State Farm Distracted Driver Detection | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/deep-learning/,200,deep learning | No Free Hunch,0,0,0,5
+http://blog.kaggle.com/2015/04/17/predicting-march-madness-1st-place-finisher-zach-bradshaw/,200,"Predicting March Madness: 1st Place Winner, Zach Bradshaw | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2012/09/25/ehr-with-r-practice-fusion-open-challenge-2nd-place-visualizations/,200,EHR with R – Practice Fusion Open Challenge 2nd place Visualizations | No Free Hunch,0,6,1,0
+http://blog.kaggle.com/tag/cisco-systems/,200,Cisco Systems | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/learning/,200,learning | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/02/29/homesite-quote-conversion-winners-interview-3rd-place-team-new-model-army-cad-quy/,200,"Homesite Quote Conversion, Winners’ Interview: 3rd place, Team New Model Army | CAD & QuY | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/author/colinpriest/,200,Colin Priest | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/03/21/winding-paths-to-data-science-david-havera-data-scientist-at-ge-aviation/,200,Winding Paths to Data Science: David Havera (Data Scientist at GE Aviation) | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/12/30/bosch-production-line-performance-competition-symposium-for-advanced-manufacturing-grant-winners-ankita-nishant-abhinav-bohdan/,200,"Bosch Production Line Performance Competition: Symposium for Advanced Manufacturing Grant Winners, Ankita & Nishant | Abhinav | Bohdan | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2011/03/18/heritage-health-prize-progress-prizes/,200,Heritage Health Prize Progress Prizes | No Free Hunch,0,28,0,0
+http://blog.kaggle.com/tag/algo-trading-challenge/,200,Algo Trading Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/knn/,200,KNN | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/vik-paruchuri/,200,Vik Paruchuri | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/winton-stock-market-challenge/,200,Winton Stock Market Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/social-network-analysis/,200,social network analysis | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/08/17/making-kaggle-the-home-of-open-data/,200,Making Kaggle the Home of Open Data | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/data-science-for-social-good/,200,data science for social good | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/microsoft-malware/,200,Microsoft Malware | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/05/14/scikit-learn-video-5-choosing-a-machine-learning-model/,200,scikit-learn video #5: Choosing a machine learning model | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/naive-bayes/,200,Naive Bayes | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/winton-capital/,200,Winton Capital | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/docker/,200,docker | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/winners-interviews/page/19/,200,Winners’ Interviews | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2015/08/18/crowdflower-scripts-approaching-nlp/,200,CrowdFlower Competition Scripts: Approaching NLP | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/kaggle-news/page/2/,200,Kaggle News | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/quora/,200,Quora | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/07/27/a-rising-tide-lifts-all-scripts/,200,A Rising Tide Lifts All Scripts | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/final-four/,200,Final Four | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2013/04/03/quests-close-but-not-for-long/,200,Quests close … but not for long | No Free Hunch,0,6,0,0
+http://blog.kaggle.com/tag/facebook-recruiting-competition/,200,Facebook Recruiting Competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/01/02/three-years-and-growing/,200,Three years and growing | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/martijn-theuwissen/,200,"Martijn Theuwissen, Datacamp Co-founder | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2011/04/05/the-heritage-health-prize-has-launched/,200,The Heritage Health Prize has launched | No Free Hunch,0,32,0,0
+http://blog.kaggle.com/tag/jobs/,200,Jobs | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/bengorman/,200,Ben Gorman | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/11/01/a-challenge-to-analyze-the-worlds-most-interesting-data-the-department-of-commerce-publishes-its-datasets-on-kaggle/,200,A Challenge to Analyze the World’s Most Interesting Data: The Department of Commerce Publishes its Datasets on Kaggle | No Free Hunch,0,0,0,17
+http://blog.kaggle.com/category/winners-interviews/page/3/,200,Winners’ Interviews | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/08/30/train-score-repeat-watch-out-zillows-andrew-martin-on-modeling-pitfalls-in-a-dynamic-world/,200,"Train, Score, Repeat, Watch Out! Zillow’s Andrew Martin on modeling pitfalls in a dynamic world. | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/lambdamart/,200,LambdaMart | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/tag/avito-context-ad-click-prediction/,200,Avito Context Ad Click Prediction | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/09/25/word-tornado-practice-fusion-open-challenge-3rd-place-interview/,200,Word Tornado – Practice Fusion Open Challenge 3rd Place Interview | No Free Hunch,0,6,0,0
+http://blog.kaggle.com/2015/06/09/otto-product-classification-winners-interview-2nd-place-alexander-guschin/,200,"Otto Product Classification Winner’s Interview: 2nd place, Alexander Guschin ¯\_(ツ)_/¯ | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2017/04/28/march-machine-learning-mania-2017-2nd-place-winners-interview-scott-kellert/,200,"March Machine Learning Mania 2017, 2nd Place Winner’s Interview: Scott Kellert | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2015/03/21/march-mania-2015-round-of-32-predictions/,200,March Mania 2015: Round of 32 Predictions | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/data-analysis/,200,data analysis | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/profiles/,200,Profiles | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/10/21/a-guide-to-open-data-publishing-analytics/,200,A Guide to Open Data Publishing & Analytics | No Free Hunch,0,0,1,0
+http://blog.kaggle.com/tag/seamlessml/,200,SeamlessML | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/progression-system/,200,Progression System | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/prudential-life-insurance-assessment/,200,Prudential Life Insurance Assessment | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/09/15/draper-satellite-image-chronology-machine-learning-solution-vicens-gaitan/,200,Draper Satellite Image Chronology: Pure ML Solution | Vicens Gaitan | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/10/19/talkingdata-mobile-user-demographics-competition-winners-interview-3rd-place-team-utc1-3-danijel-matias/,200,"TalkingData Mobile User Demographics Competition, Winners’ Interview: 3rd Place, Team utc(+1,-3) | Danijel & Matias | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/profiling-data-science-teams/,200,profiling data science teams | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/santander-product-recommendation/,200,Santander Product Recommendation | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/reinforcement-learning/,200,reinforcement learning | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/08/22/dataset-spotlight-european-soccer-database-hugo-mathien/,200,Open Data Spotlight: The Ultimate European Soccer Database | Hugo Mathien | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/02/22/santander-product-recommendation-competition-3rd-place-winners-interview-ryuji-sakata/,200,"Santander Product Recommendation Competition: 3rd Place Winner’s Interview, Ryuji Sakata | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/red-hat-business-value/,200,Red Hat business value | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/06/29/scikit-learn-video-7-optimizing-your-model-with-cross-validation/,200,scikit-learn video #7: Optimizing your model with cross-validation | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/01/29/noaa-right-whale-recognition-winners-interview-1st-place-deepsense-io/,200,"NOAA Right Whale Recognition, Winners’ Interview: 1st place, deepsense.io | No Free Hunch",0,5,0,0
+http://blog.kaggle.com/author/wendykan/,200,Wendy Kan | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/11/03/venture-capital-jobs-and-a-new-competition/,200,"Venture Capital, Jobs and a New Competition | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2017/04/10/exploring-the-structure-of-high-dimensional-data-with-hypertools-in-kaggle-kernels/,200,Exploring the Structure of High-Dimensional Data with HyperTools in Kaggle Kernels | No Free Hunch,0,0,0,5
+http://blog.kaggle.com/tag/caterpillar-tube-pricing/,200,Caterpillar Tube Pricing | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/ridge-regression/,200,ridge regression | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/allstate-claims-severity/,200,Allstate Claims Severity | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/11/17/painter-by-numbers-competition-1st-place-winners-interview-nejc-ilenic/,200,"Painter by Numbers Competition, 1st Place Winner’s Interview: Nejc Ilenič | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2011/09/28/mapping-dark-matter-winners-assemble-at-nasas-jpl/,200,NASA’s JPL Hosts the Mapping Dark Matter Winners | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/tag/writing/,200,writing | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/01/23/a-kaggle-master-explains-gradient-boosting/,200,A Kaggle Master Explains Gradient Boosting | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/08/01/learning-from-the-best/,200,Learning from the best | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2017/05/01/datasets-of-the-week-april-2017/,200,"Datasets of the Week, April 2017: Fraud Detection, Exoplanets, Indian Premier League, & the French Election | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2015/12/09/november-2015-scripts-of-the-week/,200,November 2015: Scripts of the Week | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/07/03/winning-prospect-idea-identify-diabetics/,200,Winning Prospect Idea: Identify Diabetics | No Free Hunch,0,6,0,0
+http://blog.kaggle.com/tag/revenue-forecast/,200,revenue forecast | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/04/19/the-intrigue-of-eurovision-the-modelers-delight/,200,The Intrigue of Eurovision … The Modeler’s Delight | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/11/29/designing-a-self-learning-tic-tac-toe-player/,200,Data Notes: Designing a Self-Learning Tic-Tac-Toe Player | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/neural-nets/,200,neural nets | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/01/04/how-much-did-it-rain-ii-winners-interview-1st-place-pupa-aka-aaron-sim/,200,"How Much Did It Rain? II, Winner’s Interview: 1st place, PuPa (aka Aaron Sim) | No Free Hunch",0,0,2,8
+http://blog.kaggle.com/tag/actuarial-science/,200,actuarial science | No Free Hunch,0,6,0,0
+http://blog.kaggle.com/2016/07/11/from-kaggle-to-google-deepmind-an-interview-with-jeffrey-de-fauw/,200,From Kaggle to Google DeepMind: An interview with Jeffrey De Fauw | No Free Hunch,0,14,0,0
+http://blog.kaggle.com/2012/10/12/observing-dark-worlds-a-beginners-guide-to-dark-matter-how-to-find-it/,200,Observing Dark Worlds: A Beginners Guide to Dark Matter & How to Find It | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/03/03/santas-stolen-sleigh-winners-interview-3rd-place-marcin-marek/,200,"Santa’s Stolen Sleigh, Winners’ Interview: 3rd place, Marcin Mucha & Marek Cygan | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2015/10/20/caterpillar-winners-interview-3rd-place-team-shift-workers/,200,"Caterpillar Winners’ Interview: 3rd place, Team Shift Workers | No Free Hunch",0,0,0,1
+http://blog.kaggle.com/tag/homesite-quote-conversion/,200,Homesite Quote Conversion | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/discussion-grandmaster/,200,Discussion Grandmaster | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/predicting-check-ins/,200,predicting check-ins | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/stephen-o-rice-prize/,200,Stephen O. Rice Prize | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/12/13/how-we-did-it-jie-and-neeral-on-winning-the-first-kaggle-in-class-competition-at-stanford/,200,How we did it: Jie and Neeral on winning the first Kaggle-in-Class competition at Stanford | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/datacanary/,200,Jamie Hall | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/open-data/page/2/,200,open data | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/06/06/introducing-kaggle-prospect/,200,Introducing Kaggle Prospect | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/data-notes/page/2/,200,Data Notes | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/09/19/august-kaggle-dataset-publishing-awards-winners-interview/,200,August Kaggle Dataset Publishing Awards Winners’ Interview | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/08/22/machine-learning-kaggle-competition-part-one-getting-started/,200,Getting Started with Competitions – A Peer to Peer Guide | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/03/14/prudential-life-insurance-assessment-winners-interview-2nd-place-bogdan-zhurakovskyi/,200,"Prudential Life Insurance Assessment, Winner’s Interview: 2nd place, Bogdan Zhurakovskyi | No Free Hunch",0,0,0,1
+http://blog.kaggle.com/author/nick-henderson/,200,Nick Henderson | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/09/02/mapping-matter-with-matlab/,200,Mapping Matter with Matlab: Sergey Yurgenson on finishing second in Mapping Dark Matter | No Free Hunch,0,0,1,0
+http://blog.kaggle.com/2015/08/14/diabetic-retinopathy-winners-interview-4th-place-julian-daniel/,200,"Diabetic Retinopathy Winners’ Interview: 4th place, Julian & Daniel | No Free Hunch",0,6,0,0
+http://blog.kaggle.com/2018/08/09/data-notes-from-hate-speech-to-russian-troll-tweets/,200,Data Notes: From Hate Speech to Russian Troll Tweets | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/09/13/deepzot-on-dark-matter/,200,DeepZot on Dark Matter: How we won the Mapping Dark Matter challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/richardsproat/,200,Richard Sproat | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/09/29/grasp-and-lift-eeg-detection-winners-interview-2nd-place-daheimao/,200,"Grasp-and-Lift EEG Detection Winner’s Interview: 2nd place, daheimao | No Free Hunch",0,6,0,0
+http://blog.kaggle.com/tag/leaf-classification/,200,leaf classification | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/01/18/an-intuitive-introduction-to-generative-adversarial-networks/,200,An Intuitive Introduction to Generative Adversarial Networks | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/linear-regression/,200,linear regression | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/data-science-bowl/,200,Data Science Bowl | No Free Hunch,0,11,0,0
+http://blog.kaggle.com/2015/02/24/defending-champions-winners-story-helping-santas-helpers/,200,Defending Champions Winners’ Story: Helping Santa’s Helpers | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/bosch-production-line-performance/,200,bosch production line performance | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/k-nearest-neighbors/,200,k-nearest neighbors | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/random-forest/,200,random forest | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/12/01/kaggle-announces-code-competitions/,200,Kaggle Announces Code Competitions | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/07/23/kaggle-update-claims-prediction-and-more/,200,Kaggle Update: Claims Prediction and More | No Free Hunch,0,9,0,0
+http://blog.kaggle.com/tag/feature-extraction/,200,feature extraction | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/department-of-commerce/,200,department of commerce | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/2011/08/29/kaggle’s-tv-stars/,200,Kaggle’s TV Stars | No Free Hunch,0,8,0,0
+http://blog.kaggle.com/tag/talkingdata-mobile-user-demographics/,200,TalkingData Mobile User Demographics | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/08/24/avito-duplicate-ads-detection-winners-interview-1st-place-team-devil-team-stanislav-dmitrii/,200,"Avito Duplicate Ads Detection, Winners’ Interview: 1st Place Team, Devil Team | Stanislav Semenov & Dmitrii Tsybulevskii | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/allstate-insurance/,200,Allstate Insurance | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/jphoward/,200,Jeremy Howard | No Free Hunch,0,17,0,0
+http://blog.kaggle.com/tag/neural-networks/,200,neural networks | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/12/19/a-bayesian-approach-to-observing-dark-worlds/,200,A Bayesian approach to Observing Dark Worlds | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/european-soccer/,200,european soccer | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/11/27/october-kaggle-dataset-publishing-awards-winners-interview/,200,October Kaggle Dataset Publishing Awards Winners’ Interview | No Free Hunch,0,5,0,0
+http://blog.kaggle.com/tag/symposium-for-advanced-manufacturing/,200,symposium for advanced manufacturing | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/09/13/new-feature-private-messaging-on-kaggle/,200,New Feature: Contact User on Kaggle | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/denoising-dirty-documents/,200,DeNoising Dirty Documents | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/09/12/private-competitions-behind-the-curtain/,200,Private Competitions: Behind the Curtain | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/09/14/profiling-kaggles-user-base/,200,Profiling Kaggle’s user base | No Free Hunch,0,0,1,0
+http://blog.kaggle.com/2016/01/28/santas-stolen-sleigh-winners-interview-2nd-place-woshialex-weezy/,200,"Santa’s Stolen Sleigh, Winners’ Interview: 2nd place, Woshialex & Weezy | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/data-science-resources/,200,data science resources | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/03/23/telstra-network-disruption-winners-interview-1st-place-mario-filho/,200,"Telstra Network Disruption, Winner’s Interview: 1st place, Mario Filho | No Free Hunch",0,4,0,0
+http://blog.kaggle.com/tag/image-segmentation/,200,image segmentation | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/09/08/draper-satellite-image-chronology-damien-soukhavong/,200,Draper Satellite Image Chronology: Pure ML Solution | Damien Soukhavong | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/02/22/profiling-top-kagglers-leustagos-current-7-highest-1/,200,"Profiling Top Kagglers: Leustagos, Current #7 / Highest #1 | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/author/admin/page/3/,200,Anthony Goldbloom | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/author/william-koehrsen/,200,William Koehrsen | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/01/21/recruited-from-kaggle-life-as-a-data-scientist-at-winton-capital/,200,Recruited from Kaggle: Life as a Research Scientist at Winton Capital | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/05/18/tab-food-winners-interview-1st-place-wei-yang-aka-arsenal/,200,"TAB Food Winner’s Interview: 1st place, Wei Yang (aka Arsenal) | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/multiclass-classification/page/2/,200,multiclass classification | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/12/05/announcing-kaggle-integration-with-google-data-studio/,200,Announcing Kaggle integration with Google Data Studio | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/horse-racing/,200,horse racing | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/06/15/home-depot-product-search-relevance-winners-interview-2nd-place-thomas-sean-qingchen-nima/,200,"Home Depot Product Search Relevance, Winners’ Interview: 2nd Place | Thomas, Sean, Qingchen, & Nima | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2015/10/06/september-2015-scripts-of-the-week/,200,September 2015: Scripts of the Week | No Free Hunch,0,6,0,0
+http://blog.kaggle.com/tag/helping-santas-helpers/,200,Helping Santa’s Helpers | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/andrewmartin/,200,Andrew Martin | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/will-cukierski/,200,Will Cukierski | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/07/14/data-notes-tech-datasets-resume-projects-for-new-data-scientists/,200,Data Notes: tech datasets + resume projects for new data scientists | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/05/25/eurovision-predictions-statisticians-pick-azerbaijan/,200,Eurovision Predictions: Statisticians pick Azerbaijan | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2017/03/15/leaf-classification-playground-competition-winning-kernels/,200,Leaf Classification Playground Competition: Winning Kernels | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/tim-salimans/,200,Tim Salimans | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/06/14/data-notes-6-14-2018/,200,Data Notes: Predict the World Cup 2018 Winner | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2015/11/05/october-2015-scripts-of-week/,200,October 2015: Scripts of Week | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/01/26/american-epilepsy-society-seizure-prediction-challenge/,200,Reviewing the American Epilepsy Society Seizure Prediction Challenge | No Free Hunch,0,12,0,0
+http://blog.kaggle.com/tag/dataset-spotlight/,200,dataset spotlight | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/hypertools/,200,hypertools | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/yelp-restaurant-photo-classification/,200,Yelp restaurant photo classification | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/10/17/data-notes-the-secret-of-academic-success/,200,Data Notes: The Secret of Academic Success | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2010/11/30/how-i-did-it-diogo-ferreira-on-4th-place-in-elo-chess-ratings-competition/,200,How I did it: Diogo Ferreira on 4th place in Elo chess ratings competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/india-census/,200,india census | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/genentech-cervical-cancer-screening/,200,Genentech Cervical Cancer Screening | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/author/kaggleteam/page/17/,200,Kaggle Team | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2012/09/26/impermium-andreas-blog/,200,Troll Detection with Scikit-Learn | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/tag/visualization/,200,Visualization | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/07/20/joyplots-tutorial-with-insect-data/,200,Data Science 101: Joyplots tutorial with insect data? ?? | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/10/04/data-notes-are-those-honey-bees-healthy/,200,Data Notes: Are Those Honey Bees Healthy? | No Free Hunch,0,31,0,0
+http://blog.kaggle.com/2015/04/15/scikit-learn-video-2-setting-up-python-for-machine-learning/,200,scikit-learn video #2: Setting up Python for machine learning | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/04/03/dogs-vs-cats-redux-playground-competition-winners-interview-bojan-tunguz/,200,"Dogs vs. Cats Redux Playground Competition, Winner’s Interview: Bojan Tunguz | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/author/vsochat/,200,Vanessa Sochat | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/02/27/allstate-claims-severity-competition-2nd-place-winners-interview-alexey-noskov/,200,"Allstate Claims Severity Competition, 2nd Place Winner’s Interview: Alexey Noskov | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/datacamp/,200,DataCamp | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/10/06/like-popping-bubble-wrap/,200,Like Popping Bubble-Wrap: Keith T. Herring on Placing Second in Wikipedia’s Participation Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/08/26/avito-winners-interview-1st-place-owen-zhang/,200,"Avito Winner’s Interview: 1st place, Owen Zhang | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2010/11/27/philipp-weidmann-5th-in-the-elo-comp-on-chess-ratings-and-numerical-optimization/,200,Philipp Weidmann (5th in the Elo comp) on chess ratings and numerical optimization | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/category/winners-interviews/page/2/,200,Winners’ Interviews | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/05/21/eurovision-voting-patterns-a-socialogical-spreadsheet/,200,Eurovision voting patterns – a sociological spreadsheet | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/03/28/march-mania-2015-round-of-8-predictions/,200,March Mania 2015: Round of 8 Predictions | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/05/26/microsoft-malware-winners-interview-1st-place-no-to-overfitting/,200,"Microsoft Malware Winners’ Interview: 1st place, “NO to overfitting!” | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2018/09/14/pei-lien-chou/,200,"Winner Interview | Particle Tracking Challenge first runner-up, Pei-Lien Chou | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/advanced-regression-techniques/,200,advanced regression techniques | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/edwinchen/,200,Edwin Chen | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/07/28/11th-hour-win-of-greek-media-monitoring-challenge/,200,11th hour win of Greek Media Monitoring Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/ramzi-ramey/,200,Ramzi Ramey | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/03/23/who-can-beat-kentucky/,200,March Mania 2015: Who can beat Kentucky? | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/data-science-news/page/3/,200,Data Science News | No Free Hunch,0,0,0,6
+http://blog.kaggle.com/2017/08/25/data-science-101-getting-started-in-nlp-tokenization-tutorial/,200,Data Science 101 (Getting started in NLP): Tokenization tutorial | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/10/12/grasp-and-lift-eeg-winners-interview-1st-place-cat-dog/,200,"Grasp-and-Lift EEG Detection Winners’ Interview: 1st place, Cat & Dog | No Free Hunch",0,4,0,1
+http://blog.kaggle.com/tag/the-hunt-for-prohibited-content/,200,The Hunt for Prohibited Content | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/tag/world-cup-competition/,200,World Cup Competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2013/02/01/colorado-succeeds-succeeds-winners-announcement/,200,Colorado Succeeds Succeeds! Winners Announcement | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/11/23/picture-perfect-bo-yang-on-winning-the-photo-quality-prediction-competition/,200,Picture Perfect: Bo Yang on winning the Photo Quality Prediction competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/09/02/mapping-matter-with-matlab/attachment/3/,200,Scatter Plot | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/03/22/march-mania-round-of-32/,200,March Mania: the Second Round Predictions | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/06/13/communicating-data-science-an-interview-with-a-storytelling-expert-tyler-byers/,200,Communicating data science: An interview with a storytelling expert | Tyler Byers | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/07/23/music-data-viz-and-very-little-sleep/,200,"Music, Data, Viz (and very little sleep) | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2016/11/21/integer-sequence-learning-competition-solution-write-up-team-1-618-gareth-jones-laurent-borderie/,200,"Integer Sequence Learning Competition: Solution Write-up, Team 1.618 | Gareth Jones & Laurent Borderie | No Free Hunch",0,5,3,0
+http://blog.kaggle.com/tag/lda/,200,LDA | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/09/06/building-a-team-from-the-inside-out-alok-gupta-on-the-evolution-of-data-science-at-airbnb/,200,Building a Team from the Inside Out: Alok Gupta on the Evolution of Data Science at Airbnb | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/09/21/product-launch-amped-up-kernels-resources-code-tips-hidden-cells/?utm_medium=blog&utm_source=nofreehunch&utm_campaign=EOY+mailer+2017,200,Product Launch: Amped up Kernels Resources + Code Tips & Hidden Cells | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/07/21/approaching-almost-any-machine-learning-problem-abhishek-thakur/comment-page-2/,200,Approaching (Almost) Any Machine Learning Problem | Abhishek Thakur | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2013/05/06/qa-with-job-salary-prediction-first-prize-winner-vlad-mnih/,200,Q&A With Job Salary Prediction First Prize Winner Vlad Mnih | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2015/08/28/taxi-ride-sharing-optimization/,200,Taxi & Ride Sharing Optimization Scripts | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/climate-corporation/,200,climate corporation | No Free Hunch,0,0,0,12
+http://blog.kaggle.com/2012/10/08/competitive-astronomy-crowd-sourcing-the-universe/,200,Competitive Astronomy: Crowd Sourcing the Universe | No Free Hunch,0,5,0,0
+http://blog.kaggle.com/2017/05/09/dstl-satellite-imagery-competition-3rd-place-winners-interview-vladimir-sergey/,200,"Dstl Satellite Imagery Competition, 3rd Place Winners’ Interview: Vladimir & Sergey | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2015/07/21/west-nile-virus-competition-benchmarks-tutorials/,200,West Nile Virus Competition Benchmarks & Tutorials | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/margitzwemer/page/3/,200,Margit Zwemer | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/best-practices/,200,best practices | No Free Hunch,0,0,0,7
+http://blog.kaggle.com/2016/10/14/getting-started-in-the-seizure-prediction-competition-impact-history-useful-resources/,200,"Getting Started in the Seizure Prediction Competition: Impact, History, & Useful Resources | No Free Hunch",0,15,0,0
+http://blog.kaggle.com/2013/01/14/webapps-for-data-scientists-building-your-first-crud/,200,Webapps for Data Scientists – Building your first CRUD | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/kaggleteam/page/4/,200,Kaggle Team | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/2017/10/30/introducing-kaggles-state-of-data-science-machine-learning-report-2017/,200,"Introducing Kaggle’s State of Data Science & Machine Learning Report, 2017 | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2015/12/07/three-things-i-love-about-jupyter-notebooks/,200,Three Things I Love About Jupyter Notebooks | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/09/21/instacart-market-basket-analysis-winners-interview-2nd-place-kazuki-onodera/,200,"Instacart Market Basket Analysis, Winner’s Interview: 2nd place, Kazuki Onodera | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2012/07/02/up-and-running-with-python-my-first-kaggle-entry/,200,Up And Running With Python – My First Kaggle Entry | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/predict-hiv-progression/,200,Predict HIV Progression | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/04/21/qa-with-gregory-and-michael-1st-place-in-march-ml-mania/,200,"Q&A with Gregory Matthews and Michael Lopez, 1st Place in March ML Mania | No Free Hunch",0,4,1,0
+http://blog.kaggle.com/2015/05/20/hacking-the-otto-group-challenge-in-paris/,200,Hacking the Otto Group Challenge in Paris | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/stack-exchange/,200,Stack Exchange | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2013/01/17/getting-started-with-pandas-predicting-sat-scores-for-new-york-city-schools/,200,Getting Started with Pandas – Predicting SAT Scores for New York City Schools | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/06/14/quants-pick-elo-ratings-as-the-best-predictor-of-world-cup-success/,200,Quants pick Elo ratings as the best predictor of World Cup success | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/personalization/,200,personalization | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/09/13/deepzot-on-dark-matter/galaxy3/,200,Galaxy3 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/04/26/dstl-satellite-imagery-competition-1st-place-winners-interview-kyle-lee/image09-3/,200,image09 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/chrisclark/,200,Chris Clark | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/storytelling-with-data/,200,storytelling with data | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/07/14/visualizing-west-nile-virus/,200,Visualizing West Nile Virus | No Free Hunch,0,0,0,9
+http://blog.kaggle.com/2010/07/21/competitions-and-real-life-projects/,200,Competitions and real life projects | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/07/16/help-a-bladder-cancer-patient-analyze-his-dataset/,200,Help a bladder cancer patient analyze his dataset | No Free Hunch,0,7,0,0
+http://blog.kaggle.com/2010/06/21/data-inc-are-avms-soothsayers-or-the-real-deal/,200,Data-driven property valuations: the real deal? | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/11/29/grockit-competition-photo-competition-results-and-more/,200,"Grockit Competition launched, Photo Competition results | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2011/01/18/how-i-did-it-benjamin-hamners-take-on-finishing-second/,200,How I did it: Benjamin Hamner’s take on finishing second | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/winners-interviews/page/17/,200,Winners’ Interviews | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/07/27/taxi-trajectory-winners-interview-1st-place-team-%F0%9F%9A%95/,200,"Taxi Trajectory Winners’ Interview: 1st place, Team ? | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2010/06/12/statisticians-forecast-for-the-world-cup/,200,Statisticians predict Brazil to win the World Cup | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/author/kaggleteam/page/16/,200,Kaggle Team | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/03/20/could-world-chess-ratings-be-decided-by-the-stephenson-system/,200,Could World Chess Ratings be decided by the ‘Stephenson System’? | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/05/13/improved-kaggle-rankings/,200,Improved Kaggle Rankings | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/09/13/what-were-reading-data-science-resources/,200,What We’re Reading: 15 Favorite Data Science Resources | No Free Hunch,0,9,0,0
+http://blog.kaggle.com/2016/06/01/home-depot-product-search-relevance-winners-interview-3rd-place-team-turing-test-igor-kostia-chenglong/2f_proposed_product_uid/,200,2f_proposed_product_uid | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/04/27/beating-up-on-hiv/,200,Beating up on HIV | No Free Hunch,0,0,1,1
+http://blog.kaggle.com/2016/06/01/home-depot-product-search-relevance-winners-interview-3rd-place-team-turing-test-igor-kostia-chenglong/2e_naive_product_uid/,200,2e_naive_product_uid | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/07/11/first-place-in-purchase-prediction-challenge/,200,First Place in Allstate Purchase Prediction Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/intel/,200,Intel | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/alan-caras/,200,Alan Caras | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/08/09/how-i-won-the-hiv-progression-prediction-data-mining-competition/,200,How I won the Predict HIV Progression data mining competition | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2011/09/02/mapping-matter-with-matlab/attachment/2/,200,Component 3 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/03/20/march-mania-the-first-round-predictions/,200,March Mania: the First Round Predictions | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/kaggle-news/page/12/,200,Kaggle News | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/05/11/microsoft-malware-winners-interview-2nd-place-gert-marios-aka-kazanova/,200,"Microsoft Malware Winners’ Interview: 2nd place, Gert & Marios (aka KazAnova) | No Free Hunch",0,5,0,0
+http://blog.kaggle.com/2010/06/03/predicting-the-2010-fifa-world-cup-can-statisticians-outdo-the-investment-banks/,200,Investment banks predict the FIFA World Cup | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/outbrain-click-prediction/,200,outbrain click prediction | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2013/04/29/qa-with-vlado-boza-2nd-place-winner-job-salary-prediction-competition/,200,"Q&A with Vlado Boza, 2nd Place Winner, Job Salary Prediction Competition | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2014/09/15/lessons-from-avito-prohibited-content-kaggle/,200,Lessons Learned from the Hunt for Prohibited Content on Kaggle | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/auc/,200,AUC | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/04/18/winning-the-galaxy-challenge-with-convnets/,200,Winning the Galaxy Challenge with convnets: Sander Dieleman | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/Alexander.Dyakonov/,200,Alexander D’yakonov | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/data-mining/,200,data mining | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/03/28/march-mania-elite-eight-predictions/,200,March Mania: Elite Eight Predictions | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2013/08/29/qa-with-amazon-access-challenge-first-prize-winner-paul-duan/,200,Q&A With Amazon Access Challenge First Prize Winner Paul Duan | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/merck/,200,Merck | No Free Hunch,0,0,1,0
+http://blog.kaggle.com/2016/07/21/approaching-almost-any-machine-learning-problem-abhishek-thakur/comment-page-1/,200,Approaching (Almost) Any Machine Learning Problem | Abhishek Thakur | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/05/03/data-driven-startups/,200,Data-driven startups | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/2012/01/26/meet-the-winner-of-the-algo-trading-challenge-an-interview-with-ildefons-magrans/,200,Meet the Winner of the Algo Trading Challenge: An Interview with Ildefons Magrans | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/kaggle-news/page/4/,200,Kaggle News | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/airbnb/,200,airbnb | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/12/13/let-the-crowd-be-your-cofounder/,200,Let the Crowd be Your Cofounder | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2010/08/19/gruen-tenders-part-two/,200,Gruen Tenders: Part Two | No Free Hunch,0,32,0,0
+http://blog.kaggle.com/2011/05/04/andrew-newell-and-lewis-griffin-on-winning-the-icdar-2011-competition/,200,Andrew Newell and Lewis Griffin on winning the ICDAR 2011 Competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/05/25/two-sigma-financial-modeling-challenge-winners-interview-2nd-place-nima-shahbazi-chahhou-mohamed/,200,"Two Sigma Financial Modeling Challenge, Winner’s Interview: 2nd Place, Nima Shahbazi, Chahhou Mohamed | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2012/12/28/ge-hospital-quest-milestone-1-winners/,200,GE Hospital Quest: Milestone 1 Winners | No Free Hunch,0,6,0,0
+http://blog.kaggle.com/tag/ijcnn-social-network-challenge-graph-theory/,200,IJCNN Social Network Challenge Graph theory | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/11/23/flavour-of-physics-winners-interview-3rd-place-josef-slavicek/,200,"Flavour of Physics Winner’s Interview: 3rd place, Josef Slavicek | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2017/10/25/september-kaggle-dataset-publishing-awards-winners-interview/,200,September Kaggle Dataset Publishing Awards Winners’ Interview | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/page/5/,200,No Free Hunch | The Official Blog of Kaggle.com,0,0,0,0
+http://blog.kaggle.com/2015/01/02/cifar-10-competition-winners-interviews-with-dr-ben-graham-phil-culliton-zygmunt-zajac/,200,"CIFAR-10 Competition Winners: Interviews with Dr. Ben Graham, Phil Culliton, & Zygmunt Zając | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2016/02/03/rossmann-store-sales-winners-interview-2nd-place-nima-shahbazi/,200,"Rossmann Store Sales, Winner’s Interview: 2nd place, Nima Shahbazi | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/author/margitzwemer/page/2/,200,Margit Zwemer | No Free Hunch,0,4,1,1
+http://blog.kaggle.com/2013/12/23/qa-with-jose-guerrero-1st-place-winner-see-click-predict-fix-competition/,200,"Q&A with José Guerrero, 1st Place Winner, See Click Predict Fix Competition | No Free Hunch",0,8,0,0
+http://blog.kaggle.com/2011/02/11/how-i-did-it-ming-hen-tsai-on-finishing-third-in-the-r-competition/,200,How I did it: Ming-Hen Tsai on finishing third in the R competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/04/26/dstl-satellite-imagery-competition-1st-place-winners-interview-kyle-lee/image07-3/,200,image07 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/07/12/world-cup-modeling-competition-the-results-are-in/,200,World Cup modeling competition – the results are in | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/03/16/junpei-komiyama-on-finishing-4th-in-the-ford-competition/,200,Junpei Komiyama on finishing 4th in the Ford competition | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/tag/bioinformatics/,200,bioinformatics | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/mrisdal/page/3/,200,Megan Risdal | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2012/07/17/getting-started-with-the-wordpress-competition/,200,Getting Started with the WordPress Competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/liberty-mutual-property-inspection-prediction/,200,Liberty Mutual Property Inspection Prediction | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/functional-programming/,200,functional programming | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/07/27/crowdflower-winners-interview-1st-place-chenglong-chen/,200,"CrowdFlower Winner’s Interview: 1st place, Chenglong Chen | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2011/09/13/deepzot-on-dark-matter/galaxy2/,200,Galaxy2 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/03/17/outbrain-click-prediction-competition-winners-interview-2nd-place-team-brain-afk-darragh-marios-mathias-alexey/,200,"Outbrain Click Prediction Competition, Winners’ Interview: 2nd Place, Team brain-afk | Darragh, Marios, Mathias, & Alexey | No Free Hunch",0,7,0,0
+http://blog.kaggle.com/tag/claim-prediction-challenge/,200,Claim Prediction Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/04/20/mick-wagner-on-finishing-second-in-the-ford-challenge/,200,Mick Wagner on finishing second in the Ford Challenge | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2015/07/24/taxi-trip-time-winners-interview-3rd-place-bluetaxi/,200,"Taxi Trip Time Winners’ Interview: 3rd place, BlueTaxi | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/visualizations/,200,visualizations | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/emi/,200,EMI | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/05/11/two-sigma-financial-modeling-code-competition-5th-place-winners-interview-team-best-fitting-bestfitting-zero-circlecircle/,200,"Two Sigma Financial Modeling Code Competition, 5th Place Winners’ Interview: Team Best Fitting | Bestfitting, Zero, & CircleCircle | No Free Hunch",0,4,0,0
+http://blog.kaggle.com/tag/reproducible-research/,200,reproducible research | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/kaggleteam/page/15/,200,Kaggle Team | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/08/01/is-data-science-scary/,200,Is Data Science Scary? | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2012/01/26/mind-over-market-the-algo-trading-challenge-4th-place-finishers/,200,Mind Over Market: The Algo Trading Challenge 4th Place Finishers | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/angus-christophersen/,200,Angus Christophersen | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/01/15/how-we-did-it-the-winners-of-the-ijcnn-social-network-challenge/,200,How we did it: the winners of the IJCNN Social Network Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/bayes-theorem/,200,Bayes’ theorem | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/06/27/the-road-to-100000-submissions/,200,"The road to 100,000 submissions | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2017/04/26/dstl-satellite-imagery-competition-1st-place-winners-interview-kyle-lee/image06-5/,200,image06 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/10/15/make-for-data-scientists/,200,Make for Data Scientists | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/04/07/march-mania-championship-prediction/,200,March Mania: Championship Prediction | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/icdm-2015/,200,ICDM 2015 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/04/12/grockit-2nd-place-interview-with-alexander-dyakonov/,200,Grockit 2nd place interview with Alexander D’yakonov | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/09/02/mapping-matter-with-matlab/attachment/1/,200,Component 2 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/kaggle-news/page/11/,200,Kaggle News | No Free Hunch,0,32,0,0
+http://blog.kaggle.com/tag/jupyter-notebook/,200,Jupyter Notebook | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/kaggle-connect/,200,Kaggle Connect | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/03/25/if-you-cant-beat-them-invite-them/,200,"If you can’t beat them, invite them | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/overfitting/,200,overfitting | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/08/01/the-path-to-13000-data-scientists/,200,"The Path to 13,000 Data Scientists | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/data-science-blog/,200,data science blog | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/10/31/merck-competition-results-deep-nn-and-gpus-come-out-to-play/,200,Merck Competition Results – Deep NN and GPUs come out to play | No Free Hunch,0,5,2,0
+http://blog.kaggle.com/2016/06/01/home-depot-product-search-relevance-winners-interview-3rd-place-team-turing-test-igor-kostia-chenglong/2a_actual_search_term/,200,2a_actual_search_term | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/10/27/passing-the-tests-strategies-used-in-cerns-flavour-of-physics/,200,Passing the Tests: Strategies Used in CERN’s Flavour of Physics | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2013/01/29/explorer-long-distance-kagglationships/,200,Explorer: Long Distance Kagglationships | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/taxi-trajectory-prediction/,200,taxi trajectory prediction | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/winners-interviews/page/4/,200,Winners’ Interviews | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/will-cukierski/page/2/,200,Will Cukierski | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/09/28/liberty-mutual-property-inspection-winners-interview-qingchen-wang/,200,"Liberty Mutual Property Inspection, Winner’s Interview: 1st place, Qingchen Wang | No Free Hunch",0,5,1,0
+http://blog.kaggle.com/2012/10/04/how-we-did-it-cprod-1st-place-interview/,200,How We Did It: CPROD 1st place interview | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/kaggle-kernels/,200,Kaggle Kernels | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/09/17/investigative-data-science-the-rise-of-computer-assisted-reporting/,200,Investigative Data Science: The Rise of Computer-Assisted Reporting | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/01/07/qa-with-james-petterson-3rd-place-winner-see-click-predict-fix-competition/,200,"Q&A with James Petterson, 3rd Place Winner, See Click Predict Fix Competition | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2011/11/27/smile-alexander-dyakonov-on-placing-third-in-the-photo-quality-prediction-competition/,200,Smile! Alexander D’yakonov on placing third in the Photo Quality Prediction competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/category/data-science-news/page/5/,200,Data Science News | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/mrisdal/page/2/,200,Megan Risdal | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/11/27/kagglers-favorite-tools/,200,Kagglers’ Favorite Tools | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/03/07/airbnb-new-user-bookings-winners-interview-3rd-place-sandro-vega-pons/,200,"Airbnb New User Bookings, Winner’s Interview: 3rd place: Sandro Vega Pons | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2016/07/27/avito-duplicate-ads-detection-winners-interview-3rd-place-mario-gerard-kele-praveen-gilberto/,200,"Avito Duplicate Ads Detection, Winners’ Interview: 3rd Place, Team ADAD | Mario, Gerard, Kele, Praveen, & Gilberto | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/author/will-dampier/,200,William Dampier | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/09/21/overkill-analytics-wordpress-winner-describes-his-method/,200,Overkill Analytics: WordPress Winner Describes His Method | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/07/14/kaggle-master-data-scientist-author-an-interview-with-luca-massaron/feature_creation_b/,200,feature_creation_B | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/05/06/how-to-hack-a-thon/,200,How to Hack a Thon | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/author/gregory-park/,200,Gregory Park | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/09/13/deepzot-on-dark-matter/galaxy1/,200,Galaxy1 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/04/26/dstl-satellite-imagery-competition-1st-place-winners-interview-kyle-lee/image04-5/,200,image04 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/naftali/,200,Naftali Harris | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/03/31/march-mania-final-four-predictions/,200,March Mania: Final Four Predictions | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/06/15/home-depot-product-search-relevance-winners-interview-2nd-place-thomas-sean-qingchen-nima/qingchen/,200,qingchen | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/02/21/jeremy-howard-on-winning-the-predict-grant-applications-competition/,200,Jeremy Howard on winning the Predict Grant Applications Competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/text-processing/,200,text processing | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/09/05/finders-and-seekers-community-sourced-competitions/,200,Finders and Seekers: Community-sourced Competitions | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/11/30/flavour-of-physics-technical-write-up-1st-place-go-polar-bears/,200,"Flavour of Physics Technical Write-Up: 1st place, Go Polar Bears | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2012/02/23/new-joiners-at-kaggle/,200,New Joiners at Kaggle | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2011/03/25/jose-p-gonzalez-brenes-and-matias-cortes-on-winning-the-rta-challenge/,200,José P. González-Brenes and Matías Cortés on winning the RTA challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/06/01/home-depot-product-search-relevance-winners-interview-3rd-place-team-turing-test-igor-kostia-chenglong/2c_proposed_search_term/,200,2c_proposed_search_term | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/04/20/axa-winners-interview-learning-telematic-fingerprints-from-gps-data/,200,AXA Winners’ Interview: Learning Telematic Fingerprints From GPS Data | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/12/22/convolutional-nets-and-cifar-10-an-interview-with-yan-lecun/,200,Convolutional Nets and CIFAR-10: An Interview with Yann LeCun | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/08/28/getting-started-with-data-science-linux/,200,Getting Started with Data Science Linux | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/06/15/home-depot-product-search-relevance-winners-interview-2nd-place-thomas-sean-qingchen-nima/justfor/,200,justfor | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2018/04/03/q1-2018-product-update/?utm_medium=blog&utm_source=wordpress&utm_campaign=gettingstarted-20180823,200,Quarterly product update: Create your data science projects on Kaggle | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/01/14/how-i-did-it-will-cukierski-on-finishing-second-in-the-ijcnn-social-network-challenge/,200,How I did it: Will Cukierski on finishing second in the IJCNN Social Network Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/08/05/3rd-place-interview-from-the-kdd-cup-2014/,200,3rd Place interview from the KDD Cup 2014 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/scikit-learn-tutorial-series/,200,scikit-learn tutorial series | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/07/14/kaggle-master-data-scientist-author-an-interview-with-luca-massaron/learning_curves_b/,200,Learning_curves_B | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/03/25/march-mania-sweet-sixteen/,200,March Mania: Sweet Sixteen Predictions | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/cifar-10-competition/,200,CIFAR-10 Competition | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/08/20/get-your-analysisvisualization-featured-in-the-harvard-business-review/,200,Get your Analysis/Visualization featured in the Harvard Business Review | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/rossmann/,200,Rossmann | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/11/05/winners-of-campaign-finance-investigative-reporting-prospect/,200,Winners of Campaign Finance Investigative Reporting Prospect | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/10/11/how-i-did-it-the-top-three-from-the-2010-informs-data-mining-contest/,200,How I did it: The top three from the 2010 INFORMS Data Mining Contest | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/author/annamontoya/page/2/,200,Anna Montoya | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/05/13/are-competitions-the-future-of-research/,200,Are competitions the future of research? | No Free Hunch,0,6,0,0
+http://blog.kaggle.com/2012/08/06/interactive-map-of-kaggle-submissions/,200,Interactive map of Kaggle submissions | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/11/15/the-future-of-data-science-on-video/,200,The Future of Data Science. On Video. | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/07/14/kaggle-master-data-scientist-author-an-interview-with-luca-massaron/curve_fitting_b/,200,curve_fitting_B | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/taxi-trip-time-prediction/,200,Taxi Trip Time Prediction | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/06/15/home-depot-product-search-relevance-winners-interview-2nd-place-thomas-sean-qingchen-nima/sjv/,200,sjv | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/08/02/facebook-v-predicting-check-ins-winners-interview-2nd-place-markus-kliegl/,200,"Facebook V: Predicting Check Ins, Winner’s Interview: 2nd Place, Markus Kliegl | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/chalearn/,200,CHALEARN | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/09/11/how-can-i-find-a-dataset-on-kaggle/,200,How can I find a dataset on Kaggle? | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2013/06/03/powerdot-awarded-500000-and-announcing-heritage-health-prize-2-0/,200,"POWERDOT awarded $500,000 and Announcing Heritage Health Prize 2.0 | No Free Hunch",0,53,0,0
+http://blog.kaggle.com/2012/06/05/facebook-launches-kaggle-competition-for-recruiting/,200,Facebook Launches Kaggle Competition for Recruiting | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/integer-sequence-learning/,200,integer sequence learning | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/06/17/﻿what-has-bioinformatics-ever-done-for-us/,200,What has bioinformatics ever done for us? | No Free Hunch,0,8,2,0
+http://blog.kaggle.com/2017/09/21/product-launch-amped-up-kernels-resources-code-tips-hidden-cells/,200,Product Launch: Amped up Kernels Resources + Code Tips & Hidden Cells | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/05/01/chucking-everything-into-a-random-forest-ben-hamner-on-winning-the-air-quality-prediction-hackathon/,200,Chucking everything into a Random Forest: Ben Hamner on Winning The Air Quality Prediction Hackathon | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/04/26/dstl-satellite-imagery-competition-1st-place-winners-interview-kyle-lee/image08-3/,200,image08 | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/08/01/introducing-gruen-tenders-a-simple-way-to-induce-an-unbiased-prognosis/,200,Introducing Gruen Tenders – a simple way to induce an unbiased prognosis | No Free Hunch,0,12,0,0
+http://blog.kaggle.com/tag/random-forests/,200,random forests | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/04/21/spotters-fee-for-competitions-ideas/comment-page-2/,200,Spotters fee for competition ideas | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/10/12/kaggle-news-recap-oct2011/,200,Fit to Print: Kaggle News Recap | No Free Hunch,0,9,0,0
+http://blog.kaggle.com/tag/predicting-grant-applications-challenge/,200,Predicting Grant Applications Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/page/39/,200,No Free Hunch | The Official Blog of Kaggle.com,0,4,0,0
+http://blog.kaggle.com/2017/05/16/data-science-bowl-2017-predicting-lung-cancer-solution-write-up-team-deep-breath/,200,"Data Science Bowl 2017, Predicting Lung Cancer: Solution Write-up, Team Deep Breath | No Free Hunch",0,4,0,0
+http://blog.kaggle.com/2012/06/20/gigaom-and-wordpress-and-splunk-oh-my/,200,"GigaOM and WordPress and Splunk, oh my | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2012/03/22/sxsw-data-hackathon-and-naming-a-goose/,200,"SXSW, Data Hackathon, and Naming a Goose | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2012/11/01/deep-learning-how-i-did-it-merck-1st-place-interview/,200,Deep Learning How I Did It: Merck 1st place interview | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/gruen-tender/,200,Gruen Tender | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/12/07/only-kinect-more-than-a-gaming-gadget/,200,Only Kinect: More than a Gaming Gadget | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/05/03/1st-place-in-arabic-writer-indentification-challenge/,200,1st place interview for Arabic Writer Identification Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/01/19/how-i-did-it-finishing-second-from-bo-yangs-perspective/,200,How I did it: finishing second from Bo Yang’s perspective | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2016/12/27/a-kagglers-guide-to-model-stacking-in-practice/,200,A Kaggler’s Guide to Model Stacking in Practice | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2010/11/,200,2010 November | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2013/03/05/introducing-kaggle-connect-putting-the-worlds-top-data-science-consultants-in-the-cloud/,200,Introducing Kaggle Connect | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/two-sigma-financial-modeling/,200,two sigma financial modeling | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/providence-health-services/,200,Providence Health & Services | No Free Hunch,0,18,0,0
+http://blog.kaggle.com/category/data-science-news/page/4/,200,Data Science News | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2012/07/06/the-dangers-of-overfitting-psychopathy-post-mortem/,200,The Dangers of Overfitting or How to Drop 50 spots in 1 minute | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/workflows/,200,workflows | No Free Hunch,0,0,0,7
+http://blog.kaggle.com/tag/signal-processing/,200,signal processing | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/liberty-mutual/,200,Liberty Mutual | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/flavours-of-physics-finding-τ-→-μμμ/,200,Flavours of Physics: Finding τ → μμμ | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/grzegorz/,200,"Claudia Perlich, Saharon Rossett and Grzegorz Swirszcz | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/tag/datarobot/,200,DataRobot | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2017/11/15/product-launch-increased-dataset-resources/?utm_medium=blog&utm_source=nofreehunch&utm_campaign=EOY+mailer+2017,200,Product Launch: Increased Dataset Resources | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/greenplum/,200,Greenplum | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2011/11/17/words-of-wisdom-from-ben-hamner-our-newest-recruit/,200,"Words of Wisdom From Ben Hamner, Our Newest Recruit | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/2016/07/14/kaggle-master-data-scientist-author-an-interview-with-luca-massaron/feature_creation_a/,200,feature_creation_A | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/critical-reading/,200,Critical Reading | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/02/02/putting-the-r-in-titanic/,200,Putting the R in Titanic | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/neighbors/,200,neighbors | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/2010-informs-data-mining-contest/,200,2010 INFORMS Data Mining Contest | No Free Hunch,0,4,0,0
+http://blog.kaggle.com/2010/07/07/data-modeling-competitions-a-potent-research-tool-that-facilitates-real-time-science/,200,Data modeling competitions: a potent research tool that facilitates real-time science | No Free Hunch,0,0,1,0
+http://blog.kaggle.com/tag/ijcnn-social-network-challenge/,200,IJCNN Social Network Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/linux/,200,Linux | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/cancer-detection/,200,cancer detection | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/02/11/intel-puts-more-mania-into-march/,200,Kaggle Newsletter: Intel puts more Mania into March | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/09/16/icdm-winners-interview-3rd-place-roberto-diaz/,200,"ICDM Winner’s Interview: 3rd place, Roberto Diaz | No Free Hunch",0,0,0,0
+http://blog.kaggle.com/category/tutorials/page/4/,200,Tutorials | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2014/05/15/winners-in-large-scale-hierarchical-text-classification-team-anttip/,200,Winners in Large Scale Hierarchical Text Classification: team Anttip | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/author/chase-davis/,200,Chase Davis | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2012/01/30/owen-zhang-on-placing-2nd-in-the-claim-prediction-challenge/,200,Owen Zhang on Placing 2nd in the Claim Prediction Challenge | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/west-nile-virus-competition/,200,West Nile Virus Competition | No Free Hunch,0,0,0,1
+http://blog.kaggle.com/tag/financial-markets/,200,financial markets | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/tag/semi-supervised-learning/,200,semi-supervised learning | No Free Hunch,0,0,0,0
+http://blog.kaggle.com/2015/10/21/recruit-coupon-purchase-winners-interview-2nd-place-halla-yang/,200,"Recruit Coupon Purchase Winner’s Interview: 2nd place, Halla Yang | No Free Hunch",0,0,0,0
