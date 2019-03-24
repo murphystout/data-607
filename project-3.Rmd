@@ -1,0 +1,397 @@
+---
+title: "Project 3"
+author: "Michael Hayes"
+date: "March 20, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+install.packages("ggplot2", repos = "https://cran.rstudio.org")
+install.packages("tidyr", repos = "https://cran.rstudio.org")
+install.packages('RMySQL',repos = "https://cran.rstudio.org")
+install.packages('DBI',repos = "https://cran.rstudio.org")
+library(ggplot2)
+library(RMySQL)
+library(DBI)
+library(tidyr)
+
+```
+
+## Popularity of Data Science Concepts across Blogs and Publications
+
+We've identified several of the most popular data science websites, along with some popular data science *concepts* and *sectors*.  Our goal is to crawl the sites to check for popularity of these topics within the articles.
+
+###Websites
+
+Below is the list of websites we used:
+
+  datasciencecentral.com
+  
+  smartdatacollective.com
+  
+  whatsthebigdata.com
+  
+  blog.kaggle.com
+  
+  simplystatistics.org
+  
+  
+###Concepts
+
+Below is the list of *concepts* we searched for:
+
+  Quantitative
+  
+  Predictive Modeling
+  
+  Personalization
+  
+  Big Data
+  
+  Data Mining
+  
+  Visualization
+  
+  Machine Learning
+  
+  Business Intelligence
+  
+  Forecast
+  
+  Deep Learning
+  
+###Sectors
+
+Below is a list of the *sectors* and associated keywords we searched for:
+
+  Agriculture: ("Agriculture", "Botany", "Botanical", "Farming")
+  
+  Disease: ("Disease", "Health", "Medicine", "Clinic", "Epidemiology")
+  
+  DNA: ("DNA", "Genetics", "Biology")
+  
+  Weather: ("Weather", "Climate", "Meteorology")"
+
+
+##The Process
+
+The process will be as follows:
+
+  Identify list of URLs for each website.  In our example we performed a top-down crawl starting at the homepage and following all links to deeper pages.  For this we used the popular web crawler "Screaming Frog" (https://www.screamingfrog.co.uk/seo-spider/).  
+  
+  Count occurences of specified topics (Screaming Frog has built in search cabailities).  
+  
+  Manual inspection to determine of sitewide elements (such as navigation) include the topics.  We'll have to subtract these sitewide instances from any counts in order to get a true count the appropriate URLs.
+  
+  The *# of URLs* mentioning a topic (regardless of how many times its mentioned), will be our metric of the popularity of that topic.
+  
+
+###Concepts
+
+Let's load up all the data sets and start with some visualization on the DataScienceCentral Data Set:
+
+```{r}
+
+
+# Helper for getting new connection to Cloud SQL
+
+getSqlConnection <- function() {
+
+  con <-dbConnect(RMySQL::MySQL(),
+
+                  username = 'sjones',#other ids set up are 'achan' and 'mhayes'
+
+                  password = 'ac.mh.sj.607',#we all can use the same password
+
+                  host = '35.202.129.190',#this is the IP address of the cloud instance
+
+                  dbname = 'softskills')
+
+  return(con)
+
+}
+
+connection <- getSqlConnection()
+
+dsc_data <- dbGetQuery(connection,"select * from blog_topics.dsc_data")
+
+kgl_data <- dbGetQuery(connection,"select * from blog_topics.kgl_data")
+
+ss_data <- dbGetQuery(connection,"select * from blog_topics.ss_data")
+
+sdc_data <- dbGetQuery(connection,"select * from blog_topics.sdc_data")
+
+wbg_data <- dbGetQuery(connection,"select * from blog_topics.wbg_data")
+
+
+
+
+#dsc_data <- read.csv("https://raw.githubusercontent.com/murphystout/data-607/master/datasciencecentral-urls.csv")
+
+#kgl_data <- read.csv("https://raw.githubusercontent.com/murphystout/data-607/master/kaggle-urls.csv")
+
+#ss_data <- read.csv("https://raw.githubusercontent.com/murphystout/data-607/master/simplystatistics-urls.csv")
+
+#sdc_data <- read.csv("https://raw.githubusercontent.com/murphystout/data-607/master/smartdatacollective-urls.csv")
+
+#wbg_data <- read.csv("https://raw.githubusercontent.com/murphystout/data-607/master/whatsthebigdata-urls.csv")
+
+#head(dsc_data)
+```
+  
+Upon manual inspection we'll need to modify these counts to account for sitewide occurences.  First we check if a count is 0 (if so we won't adjust it), then we adjust appropriately.
+
+
+```{r}
+
+dsc_data$big_data[dsc_data$big_data > 0] <- dsc_data$big_data[dsc_data$big_data > 0] - 1
+kgl_data$forecast[kgl_data$forecast > 0] <- kgl_data$forecast[kgl_data$forecast > 0] - 3
+sdc_data$big_data <- NA
+sdc_data$business_intelligence[sdc_data$business_intelligence > 0] <- NA
+sdc_data$machine_learning[sdc_data$machine_learning > 0] <- sdc_data$machine_learning[sdc_data$machine_learning > 0] - 2
+wbg_data$data_mining[wbg_data$data_mining > 0] <- wbg_data$data_mining[wbg_data$data_mining > 0] - 1
+wbg_data$deep_learning[wbg_data$deep_learning > 0] <- wbg_data$deep_learning[wbg_data$deep_learning > 0] - 1
+wbg_data$machine_learning[wbg_data$machine_learning >0 ] <- wbg_data$machine_learning[wbg_data$machine_learning >0] - 1
+```
+
+
+Next we want to turn these values into binary values, as we only care about how many URLs mention a given topic, not how many times its mentioned in a specific URL.
+
+```{r}
+dsc_data$big_data[dsc_data$big_data > 0] <- 1
+dsc_data$business_intelligence[dsc_data$business_intelligence > 0] <- 1
+dsc_data$data_mining[dsc_data$data_mining > 0] <- 1
+dsc_data$deep_learning[dsc_data$deep_learning > 0] <- 1
+dsc_data$forecast[dsc_data$forecast > 0] <- 1
+dsc_data$machine_learning[dsc_data$machine_learning > 0] <- 1
+dsc_data$personalization[dsc_data$personalization > 0] <- 1
+dsc_data$predictive_modeling[dsc_data$predictive_modeling > 0] <- 1
+dsc_data$quantitative[dsc_data$quantitative > 0] <- 1
+
+
+ss_data$big_data[ss_data$big_data > 0] <- 1
+ss_data$business_intelligence[ss_data$business_intelligence > 0] <- 1
+ss_data$data_mining[ss_data$data_mining > 0] <- 1
+ss_data$deep_learning[ss_data$deep_learning > 0] <- 1
+ss_data$forecast[ss_data$forecast > 0] <- 1
+ss_data$machine_learning[ss_data$machine_learning > 0] <- 1
+ss_data$personalization[ss_data$personalization > 0] <- 1
+ss_data$predictive_modeling[ss_data$predictive_modeling > 0] <- 1
+ss_data$quantitative[ss_data$quantitative > 0] <- 1
+
+
+kgl_data$big_data[kgl_data$big_data > 0] <- 1
+kgl_data$business_intelligence[kgl_data$business_intelligence > 0] <- 1
+kgl_data$data_mining[kgl_data$data_mining > 0] <- 1
+kgl_data$deep_learning[kgl_data$deep_learning > 0] <- 1
+kgl_data$forecast[kgl_data$forecast > 0] <- 1
+kgl_data$machine_learning[kgl_data$machine_learning > 0] <- 1
+kgl_data$personalization[kgl_data$personalization > 0] <- 1
+kgl_data$predictive_modeling[kgl_data$predictive_modeling > 0] <- 1
+kgl_data$quantitative[kgl_data$quantitative > 0] <- 1
+
+
+sdc_data$big_data[sdc_data$big_data > 0] <- 1
+sdc_data$business_intelligence[sdc_data$business_intelligence > 0] <- 1
+sdc_data$data_mining[sdc_data$data_mining > 0] <- 1
+sdc_data$deep_learning[sdc_data$deep_learning > 0] <- 1
+sdc_data$forecast[sdc_data$forecast > 0] <- 1
+sdc_data$machine_learning[sdc_data$machine_learning > 0] <- 1
+sdc_data$personalization[sdc_data$personalization > 0] <- 1
+sdc_data$predictive_modeling[sdc_data$predictive_modeling > 0] <- 1
+sdc_data$quantitative[sdc_data$quantitative > 0] <- 1
+
+
+wbg_data$big_data[wbg_data$big_data > 0] <- 1
+wbg_data$business_intelligence[wbg_data$business_intelligence > 0] <- 1
+wbg_data$data_mining[wbg_data$data_mining > 0] <- 1
+wbg_data$deep_learning[wbg_data$deep_learning > 0] <- 1
+wbg_data$forecast[wbg_data$forecast > 0] <- 1
+wbg_data$machine_learning[wbg_data$machine_learning > 0] <- 1
+wbg_data$personalization[wbg_data$personalization > 0] <- 1
+wbg_data$predictive_modeling[wbg_data$predictive_modeling > 0] <- 1
+wbg_data$quantitative[wbg_data$quantitative > 0] <- 1
+
+
+```
+
+Now that we have binary values we can compute sums that will represent the # of URLs which those topics were found.
+
+Furthermore, by dividing by the count of URLs we get a ratio, which is much more appropriate for comparing across data sets.
+
+```{r}
+
+dsc_sums <- c(sum(dsc_data$big_data),sum(dsc_data$business_intelligence), sum(dsc_data$data_mining), sum(dsc_data$deep_learning),sum(dsc_data$forecast), sum(dsc_data$machine_learning), sum(dsc_data$personalization), sum(dsc_data$predictive_modeling), sum(dsc_data$quantitative))/length(dsc_data$url)
+
+dsc_sums
+
+wbg_data$big_data <- as.integer(wbg_data$big_data)
+
+wbg_sums <- c(sum(wbg_data$big_data),sum(wbg_data$business_intelligence), sum(wbg_data$data_mining), sum(wbg_data$deep_learning),sum(wbg_data$forecast), sum(wbg_data$machine_learning), sum(wbg_data$personalization), sum(wbg_data$predictive_modeling), sum(wbg_data$quantitative))/length(wbg_data$url)
+
+wbg_sums
+
+kgl_sums <- c(sum(kgl_data$big_data),sum(kgl_data$business_intelligence), sum(kgl_data$data_mining), sum(kgl_data$deep_learning),sum(kgl_data$forecast), sum(kgl_data$machine_learning), sum(kgl_data$personalization), sum(kgl_data$predictive_modeling), sum(kgl_data$quantitative))/length(kgl_data$url)
+
+kgl_sums
+
+sdc_sums <- c(sum(sdc_data$big_data),sum(sdc_data$business_intelligence), sum(sdc_data$data_mining), sum(sdc_data$deep_learning),sum(sdc_data$forecast), sum(sdc_data$machine_learning), sum(sdc_data$personalization), sum(sdc_data$predictive_modeling), sum(sdc_data$quantitative))/length(sdc_data$url)
+
+sdc_sums
+
+ss_sums <- c(sum(ss_data$big_data),sum(ss_data$business_intelligence), sum(ss_data$data_mining), sum(ss_data$deep_learning),sum(ss_data$forecast), sum(ss_data$machine_learning), sum(ss_data$personalization), sum(ss_data$predictive_modeling), sum(ss_data$quantitative))/length(ss_data$url)
+
+ss_sums
+
+```
+
+
+
+Now let's look at some visualizations across these topics:
+
+```{r}
+
+var_names <- c("Big Data", "Business Intelligence", "Data Mining", "Deep Learning", "Forecast", "Machine Learning", "Personalization", "Predictive Modeling", "Quantitative")
+
+data_df <- data.frame(var_names, dsc_sums, wbg_sums, kgl_sums, sdc_sums, ss_sums)
+
+data_df
+
+```
+
+Now that we've got all our data pulled in, its actually not tidied completely.  Let's gather and spread and get it set up correctly.  
+
+To get it easily visualizated via ggplot, we'll gather it up.
+
+However to present it as a dataframe we'll gather and spread to transpose rows and columns.
+
+
+```{r}
+data_df_gather <- tidyr::gather(data_df, var, ratio, -var_names)
+data_df <- tidyr::spread(data_df_gather, var_names, ratio)
+
+data_df
+
+ggplot(data_df_gather, aes(x = factor(var_names), y = ratio)) + facet_wrap(~var) + geom_bar(stat = 'identity', aes(fill = factor(var_names))) + theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank())
+
+
+```
+
+
+##Sectors
+
+Now we take a look at a few varieties of market sectors to see how often they are mentioned on the popular data science blogs.
+
+
+
+
+```{r}
+
+
+dsc_sec_data <- dbGetQuery(connection,"select * from blog_topics.dsc_sec_data")
+
+kgl_sec_data <- dbGetQuery(connection,"select * from blog_topics.kgl_sec_data")
+
+ss_sec_data <- dbGetQuery(connection,"select * from blog_topics.ss_sec_data")
+
+sdc_sec_data <- dbGetQuery(connection,"select * from blog_topics.sdc_sec_data")
+
+wbg_sec_data <- dbGetQuery(connection,"select * from blog_topics.wgb_sec_data")
+
+
+#dsc_sec_data <- read.csv("https://raw.githubusercontent.com/murphystout/data-607/master/datascience-central-urls-sectors.csv")
+
+#kgl_sec_data <- read.csv("https://raw.githubusercontent.com/murphystout/data-607/master/kaggle-urls-sectors.csv")
+
+#ss_sec_data <- read.csv("https://raw.githubusercontent.com/murphystout/data-607/master/simplystatistics-urls-sectors.csv")
+
+#sdc_sec_data <- read.csv("https://raw.githubusercontent.com/murphystout/data-607/master/smartdatacollective-urls-sectors.csv")
+
+#wbg_sec_data <- read.csv("https://raw.githubusercontent.com/murphystout/data-607/master/whatsthebigdata-urls-sectors.csv")
+
+
+wbg_sec_data$agriculture[wbg_sec_data$agriculture > 0] <- wbg_sec_data$agriculture[wbg_sec_data$agriculture > 0] - 1
+
+wbg_sec_data$disease[wbg_sec_data$disease < 5] <- 0
+
+wbg_sec_data$dna[wbg_sec_data$dna > 0] <- wbg_sec_data$dna[wbg_sec_data$dna > 0] - 1
+
+
+dsc_sec_data$agriculture[dsc_sec_data$agriculture > 0] <- 1
+dsc_sec_data$disease[dsc_sec_data$disease > 0] <- 1
+dsc_sec_data$dna[dsc_sec_data$dna > 0] <- 1
+dsc_sec_data$weather[dsc_sec_data$weather > 0] <- 1
+
+
+ss_sec_data$agriculture[ss_sec_data$agriculture > 0] <- 1
+ss_sec_data$disease[ss_sec_data$disease > 0] <- 1
+ss_sec_data$dna[ss_sec_data$dna > 0] <- 1
+ss_sec_data$weather[ss_sec_data$weather > 0] <- 1
+
+
+kgl_sec_data$agriculture[kgl_sec_data$agriculture > 0] <- 1
+kgl_sec_data$disease[kgl_sec_data$disease > 0] <- 1
+kgl_sec_data$dna[kgl_sec_data$dna > 0] <- 1
+kgl_sec_data$weather[kgl_sec_data$weather > 0] <- 1
+
+
+
+sdc_sec_data$agriculture[sdc_sec_data$agriculture > 0] <- 1
+sdc_sec_data$disease[sdc_sec_data$disease > 0] <- 1
+sdc_sec_data$dna[sdc_sec_data$dna > 0] <- 1
+sdc_sec_data$weather[sdc_sec_data$weather > 0] <- 1
+
+
+
+wbg_sec_data$agriculture[wbg_sec_data$agriculture > 0] <- 1
+wbg_sec_data$disease[wbg_sec_data$disease > 0] <- 1
+wbg_sec_data$dna[wbg_sec_data$dna > 0] <- 1
+wbg_sec_data$weather[wbg_sec_data$weather > 0] <- 1
+
+
+
+
+dsc_sec_sums <- c(sum(dsc_data$agriculture),sum(dsc_sec_data$disease), sum(dsc_sec_data$dna), sum(dsc_sec_data$weather))/length(dsc_sec_data$url)
+
+dsc_sec_sums
+
+
+wbg_sec_sums <- c(sum(wbg_sec_data$agriculture),sum(wbg_sec_data$disease), sum(wbg_sec_data$dna), sum(wbg_sec_data$weather))/length(wbg_sec_data$url)
+
+wbg_sec_sums
+
+kgl_sec_sums <- c(sum(kgl_sec_data$agriculture),sum(kgl_sec_data$disease), sum(kgl_sec_data$dna), sum(kgl_sec_data$weather))/length(kgl_sec_data$url)
+
+kgl_sec_sums
+
+sdc_sec_sums <- c(sum(sdc_sec_data$agriculture),sum(sdc_sec_data$disease), sum(sdc_sec_data$dna), sum(sdc_sec_data$weather))/length(sdc_sec_data$url)
+
+sdc_sec_sums
+
+ss_sec_sums <- c(sum(ss_sec_data$agriculture),sum(ss_sec_data$disease), sum(ss_sec_data$dna), sum(ss_sec_data$weather))/length(ss_sec_data$url)
+
+ss_sec_sums
+
+
+
+sec_names <- c("Agriculture", "Disease", "DNA", "Weather")
+
+sec_df <- data.frame(sec_names, dsc_sec_sums, wbg_sec_sums, kgl_sec_sums, sdc_sec_sums, ss_sec_sums)
+
+sec_df
+
+
+sec_df_gather <- tidyr::gather(sec_df, var, ratio, -sec_names)
+sec_df <- tidyr::spread(sec_df_gather, sec_names, ratio)
+
+sec_df
+
+ggplot(sec_df_gather, aes(x = factor(sec_names), y = ratio)) + facet_wrap(~var) + geom_bar(stat = 'identity', aes(fill = factor(sec_names))) + theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank())
+
+```
+
