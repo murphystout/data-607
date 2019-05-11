@@ -1,0 +1,260 @@
+---
+title: "DATA 607 Final Project - Twitter API"
+author: "Michael Hayes"
+date: "May 6, 2019"
+output:
+  rmdformats::readthedown:
+    code_folding: hide
+    gallery: no
+    highlight: tango
+    lightbox: yes
+    self_contained: yes
+    thumbnails: yes
+  html_document:
+    code_folding: hide
+    df_print: paged
+---
+
+<style type="text/css">
+pre {
+  max-height: 150px;
+  float: left;
+  width: 100%;
+  overflow-y: auto;
+}
+pre.r {
+max-height: none;
+}
+h1.title {
+  color: DarkBlue;
+  font-weight: bold;
+}
+h1 { /* Header 1 */
+  color: DarkBlue;
+  font-weight: bold;
+}
+h2 { /* Header 2 */
+  color: DarkBlue;
+  font-weight: bold;
+}
+h3 { /* Header 3 */
+  color: DarkBlue;
+  font-weight: bold;
+}
+h4 { /* Header 3 */
+  color: DarkBlue;
+  font-weight: bold;
+}
+</style>  
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+install.packages("twitteR", repos = "http://cran.rstudio.org")
+install.packages("rlist", repos = "http://cran.rstudio.org")
+install.packages("ResourceSelection", repos = "http://cran.rstudio.org")
+install.packages("DBI", repos = "http://cran.rstudio.org")
+install.packages("RMySQL", repos = "http://cran.rstudio.org")
+library(twitteR)
+library(rlist)
+library(ResourceSelection)
+library(DBI)
+library(RMySQL)
+
+```
+
+## Twitter API
+
+```{r}
+api_key <- "ZYoAk6RPmnwtpSULdOkfKqTga"
+
+secret_key <- "4ghHFmMtMS1EN4FLzh8OMoOoZBsfrnxjGksgBu1RJm0SEwIEvN"
+
+access_token <- "921826327237419010-y3LDsyX852MVRxyCYy74MAnKkRlbVHL"
+
+access_secret <- "Dztjs4tHCeoFL96B3DzZ9z0985EhlddYqzgofBbJ4Ax5f"
+
+setup_twitter_oauth(consumer_key = api_key, consumer_secret = secret_key, access_token = access_token, access_secret = access_secret)
+
+```
+
+#Pull Verified Users Tweets
+
+```{r message=FALSE,warning=FALSE,echo=FALSE}
+
+v_users <- read.csv("https://raw.githubusercontent.com/murphystout/data-607/master/verified_users.csv")
+
+v_users_search <- v_users$search_term
+
+#Due to rate limits, pulling this data fresh from the API will take aprox 2 hours.  
+#Commenting this out and pulling data from preloaded DB
+
+#tweet_list <- list()
+#for(i in v_users_search){
+#  x <- searchTwitter(as.character(i),n=100)
+#  tweet_list <- list.append(tweet_list,x)
+#  Sys.sleep(10)
+#}
+
+#tweets <- vector()
+#for(i in tweet_list){
+#  for(f in i){
+#   
+#    tweets <- c(tweets,f$text )
+#      
+#    }
+#}
+
+#set password and username for DB query
+pw<-"ac.mh.sj.607"
+id<-"root"
+
+
+#Set MySQL connection parameters
+getSqlConnection <- function() {
+  con <-dbConnect(RMySQL::MySQL(),
+                  username = id, #other ids set up are 'achan' and 'mhayes'
+                  password = pw, #we all can use the same password
+                  host = '35.202.129.190', #this is the IP address of the cloud instance
+                  dbname = 'tweets')
+  return(con)
+}
+
+connection <- getSqlConnection()
+reqst <- dbSendQuery(connection,"select * from tweets.verified")
+verified_tweets <- dbFetch(reqst, n=-1)
+
+```
+
+
+#Pull User Profile Data
+
+
+```{r}
+#Compiling with API calls takes an extended period of time.  Commenting this out.
+ 
+#user_objs <- list()
+
+#for(i in v_users$screen_name){
+#  user_objs <- list.append(user_objs,getUser(i))
+#  Sys.sleep(10)
+#}
+#
+#id <- vector()
+
+#name <- vector()
+
+#screen_name <- vector()
+
+#statuses_count <- vector()
+
+#followers_count <- vector()
+
+#friends_count <- vector()
+
+#favourites_count <- vector()
+
+#listed_count <- vector()
+
+#created_at <- vector()
+
+#lang <- vector()
+
+#location <- vector()
+
+#default_profile <- vector()
+
+#default_profile_image <- vector()
+
+#profile_image_url <- vector()
+
+#protected <- vector()
+
+#verified <- vector()
+
+#description <- vector()
+
+#for(i in user_objs){
+  
+#id <- c(id,i$id)
+
+#name <- c(name,i$name)
+
+#screen_name <- c(screen_name,i$screenName)
+
+#statuses_count <- c(statuses_count,i$statusesCount)
+
+#followers_count <- c(followers_count,i$followersCount)
+
+#friends_count <- c(friends_count,i$friendsCount)
+
+#favourites_count <- c(favourites_count,i$favoritesCount)
+
+#listed_count <- c(listed_count,i$getListedCount())
+
+#created_at <- c(created_at,i$created)
+
+#lang <- c(lang,i$lang)
+
+#location <- c(location,i$location)
+
+#default_profile <- c(default_profile,0)
+
+#default_profile_image <- c(default_profile_image,0)
+
+#profile_image_url <- c(profile_image_url,i$getProfileImageUrl())
+
+#protected <- c(protected,i$protected)
+
+#verified <- c(verified,i$verified)
+
+#description <- c(description,i$description)
+#}
+
+
+#users_df <- data.frame(id,name,screen_name,statuses_count,followers_count,friends_count,favourites_count,#listed_count,created_at,lang,location,default_profile,default_profile_image,profile_image_url,protected,v#erified,description)
+```
+
+## All User Data
+
+```{r}
+#All User Data is available via csv as well:
+all_user_data <- read.csv("https://raw.githubusercontent.com/murphystout/data-607/master/all_users_data.csv")
+
+#all_user_data <- users_df
+all_user_data_numeric <- data.frame(all_user_data$statuses_count,all_user_data$followers_count,all_user_data$friends_count,all_user_data$favourites_count,all_user_data$listed_count,all_user_data$fake)
+
+
+```
+
+##Logistic Regression
+
+We use a generalized linear model, i.e. binary logistic regression, to try and predict a fake user profile based on its profile meta data.
+
+```{r}
+
+model <- glm(all_user_data$fake ~ all_user_data$statuses_count + all_user_data$followers_count + all_user_data$friends_count + all_user_data$favourites_count + all_user_data$listed_count)
+
+summary(model)
+
+#Removing 'friends_count', high p value
+
+model <- glm(all_user_data$fake ~ all_user_data$statuses_count + all_user_data$followers_count + all_user_data$favourites_count + all_user_data$listed_count)
+
+summary(model)
+
+```
+
+The model provided low p-values across its predictor variables, but ultimately a R-Square of ~30% isn't very good.
+
+We proceed to test Goodness of Fit via the Hoslem Test
+
+#Testing Hostlem Goodness of Fit (GOF)
+
+```{r}
+hoslem.test(all_user_data$fake, fitted(model))
+
+```
+
+With a hoslem test a low p-value is bad, it shows that the predicted model does not resemble the test set.
